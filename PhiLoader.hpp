@@ -9,9 +9,9 @@ typedef void* LIBHANNLE;
 //template<size_t bytes>
 struct LONGBITSET {
 	using LONGBITSETbasic = uint8_t;
-	size_t bytes;
+	uint16_t bytes;
 	uint16_t bits = 0;
-	LONGBITSET(size_t sizec, uint16_t bitsize):bytes(sizec- sizeof(LONGBITSET)), bits(bitsize){
+	LONGBITSET(uint16_t sizec, uint16_t bitsize):bytes(sizec- sizeof(LONGBITSET)), bits(bitsize){
 	}
 	inline LONGBITSETbasic* GetNextExtendClassPointer()const {
 		if (bytes == 0)throw "bytes==0";

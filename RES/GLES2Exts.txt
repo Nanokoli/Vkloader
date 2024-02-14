@@ -1,0 +1,906 @@
+GL_ES_VERSION_2_0|glActiveTexture|GL_APICALL void GL_APIENTRY glActiveTexture (GLenum texture);|
+GL_ES_VERSION_2_0|glAttachShader|GL_APICALL void GL_APIENTRY glAttachShader (GLuint program, GLuint shader);|
+GL_ES_VERSION_2_0|glBindAttribLocation|GL_APICALL void GL_APIENTRY glBindAttribLocation (GLuint program, GLuint index, const GLchar *name);|
+GL_ES_VERSION_2_0|glBindBuffer|GL_APICALL void GL_APIENTRY glBindBuffer (GLenum target, GLuint buffer);|
+GL_ES_VERSION_2_0|glBindFramebuffer|GL_APICALL void GL_APIENTRY glBindFramebuffer (GLenum target, GLuint framebuffer);|
+GL_ES_VERSION_2_0|glBindRenderbuffer|GL_APICALL void GL_APIENTRY glBindRenderbuffer (GLenum target, GLuint renderbuffer);|
+GL_ES_VERSION_2_0|glBindTexture|GL_APICALL void GL_APIENTRY glBindTexture (GLenum target, GLuint texture);|
+GL_ES_VERSION_2_0|glBlendColor|GL_APICALL void GL_APIENTRY glBlendColor (GLfloat red, GLfloat green, GLfloat blue, GLfloat alpha);|
+GL_ES_VERSION_2_0|glBlendEquation|GL_APICALL void GL_APIENTRY glBlendEquation (GLenum mode);|
+GL_ES_VERSION_2_0|glBlendEquationSeparate|GL_APICALL void GL_APIENTRY glBlendEquationSeparate (GLenum modeRGB, GLenum modeAlpha);|
+GL_ES_VERSION_2_0|glBlendFunc|GL_APICALL void GL_APIENTRY glBlendFunc (GLenum sfactor, GLenum dfactor);|
+GL_ES_VERSION_2_0|glBlendFuncSeparate|GL_APICALL void GL_APIENTRY glBlendFuncSeparate (GLenum sfactorRGB, GLenum dfactorRGB, GLenum sfactorAlpha, GLenum dfactorAlpha);|
+GL_ES_VERSION_2_0|glBufferData|GL_APICALL void GL_APIENTRY glBufferData (GLenum target, GLsizeiptr size, const void *data, GLenum usage);|
+GL_ES_VERSION_2_0|glBufferSubData|GL_APICALL void GL_APIENTRY glBufferSubData (GLenum target, GLintptr offset, GLsizeiptr size, const void *data);|
+GL_ES_VERSION_2_0|glCheckFramebufferStatus|GL_APICALL GLenum GL_APIENTRY glCheckFramebufferStatus (GLenum target);|
+GL_ES_VERSION_2_0|glClear|GL_APICALL void GL_APIENTRY glClear (GLbitfield mask);|
+GL_ES_VERSION_2_0|glClearColor|GL_APICALL void GL_APIENTRY glClearColor (GLfloat red, GLfloat green, GLfloat blue, GLfloat alpha);|
+GL_ES_VERSION_2_0|glClearDepthf|GL_APICALL void GL_APIENTRY glClearDepthf (GLfloat d);|
+GL_ES_VERSION_2_0|glClearStencil|GL_APICALL void GL_APIENTRY glClearStencil (GLint s);|
+GL_ES_VERSION_2_0|glColorMask|GL_APICALL void GL_APIENTRY glColorMask (GLboolean red, GLboolean green, GLboolean blue, GLboolean alpha);|
+GL_ES_VERSION_2_0|glCompileShader|GL_APICALL void GL_APIENTRY glCompileShader (GLuint shader);|
+GL_ES_VERSION_2_0|glCompressedTexImage2D|GL_APICALL void GL_APIENTRY glCompressedTexImage2D (GLenum target, GLint level, GLenum internalformat, GLsizei width, GLsizei height, GLint border, GLsizei imageSize, const void *data);|
+GL_ES_VERSION_2_0|glCompressedTexSubImage2D|GL_APICALL void GL_APIENTRY glCompressedTexSubImage2D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLsizei width, GLsizei height, GLenum format, GLsizei imageSize, const void *data);|
+GL_ES_VERSION_2_0|glCopyTexImage2D|GL_APICALL void GL_APIENTRY glCopyTexImage2D (GLenum target, GLint level, GLenum internalformat, GLint x, GLint y, GLsizei width, GLsizei height, GLint border);|
+GL_ES_VERSION_2_0|glCopyTexSubImage2D|GL_APICALL void GL_APIENTRY glCopyTexSubImage2D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_ES_VERSION_2_0|glCreateProgram|GL_APICALL GLuint GL_APIENTRY glCreateProgram (void);|
+GL_ES_VERSION_2_0|glCreateShader|GL_APICALL GLuint GL_APIENTRY glCreateShader (GLenum type);|
+GL_ES_VERSION_2_0|glCullFace|GL_APICALL void GL_APIENTRY glCullFace (GLenum mode);|
+GL_ES_VERSION_2_0|glDeleteBuffers|GL_APICALL void GL_APIENTRY glDeleteBuffers (GLsizei n, const GLuint *buffers);|
+GL_ES_VERSION_2_0|glDeleteFramebuffers|GL_APICALL void GL_APIENTRY glDeleteFramebuffers (GLsizei n, const GLuint *framebuffers);|
+GL_ES_VERSION_2_0|glDeleteProgram|GL_APICALL void GL_APIENTRY glDeleteProgram (GLuint program);|
+GL_ES_VERSION_2_0|glDeleteRenderbuffers|GL_APICALL void GL_APIENTRY glDeleteRenderbuffers (GLsizei n, const GLuint *renderbuffers);|
+GL_ES_VERSION_2_0|glDeleteShader|GL_APICALL void GL_APIENTRY glDeleteShader (GLuint shader);|
+GL_ES_VERSION_2_0|glDeleteTextures|GL_APICALL void GL_APIENTRY glDeleteTextures (GLsizei n, const GLuint *textures);|
+GL_ES_VERSION_2_0|glDepthFunc|GL_APICALL void GL_APIENTRY glDepthFunc (GLenum func);|
+GL_ES_VERSION_2_0|glDepthMask|GL_APICALL void GL_APIENTRY glDepthMask (GLboolean flag);|
+GL_ES_VERSION_2_0|glDepthRangef|GL_APICALL void GL_APIENTRY glDepthRangef (GLfloat n, GLfloat f);|
+GL_ES_VERSION_2_0|glDetachShader|GL_APICALL void GL_APIENTRY glDetachShader (GLuint program, GLuint shader);|
+GL_ES_VERSION_2_0|glDisable|GL_APICALL void GL_APIENTRY glDisable (GLenum cap);|
+GL_ES_VERSION_2_0|glDisableVertexAttribArray|GL_APICALL void GL_APIENTRY glDisableVertexAttribArray (GLuint index);|
+GL_ES_VERSION_2_0|glDrawArrays|GL_APICALL void GL_APIENTRY glDrawArrays (GLenum mode, GLint first, GLsizei count);|
+GL_ES_VERSION_2_0|glDrawElements|GL_APICALL void GL_APIENTRY glDrawElements (GLenum mode, GLsizei count, GLenum type, const void *indices);|
+GL_ES_VERSION_2_0|glEnable|GL_APICALL void GL_APIENTRY glEnable (GLenum cap);|
+GL_ES_VERSION_2_0|glEnableVertexAttribArray|GL_APICALL void GL_APIENTRY glEnableVertexAttribArray (GLuint index);|
+GL_ES_VERSION_2_0|glFinish|GL_APICALL void GL_APIENTRY glFinish (void);|
+GL_ES_VERSION_2_0|glFlush|GL_APICALL void GL_APIENTRY glFlush (void);|
+GL_ES_VERSION_2_0|glFramebufferRenderbuffer|GL_APICALL void GL_APIENTRY glFramebufferRenderbuffer (GLenum target, GLenum attachment, GLenum renderbuffertarget, GLuint renderbuffer);|
+GL_ES_VERSION_2_0|glFramebufferTexture2D|GL_APICALL void GL_APIENTRY glFramebufferTexture2D (GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level);|
+GL_ES_VERSION_2_0|glFrontFace|GL_APICALL void GL_APIENTRY glFrontFace (GLenum mode);|
+GL_ES_VERSION_2_0|glGenBuffers|GL_APICALL void GL_APIENTRY glGenBuffers (GLsizei n, GLuint *buffers);|
+GL_ES_VERSION_2_0|glGenerateMipmap|GL_APICALL void GL_APIENTRY glGenerateMipmap (GLenum target);|
+GL_ES_VERSION_2_0|glGenFramebuffers|GL_APICALL void GL_APIENTRY glGenFramebuffers (GLsizei n, GLuint *framebuffers);|
+GL_ES_VERSION_2_0|glGenRenderbuffers|GL_APICALL void GL_APIENTRY glGenRenderbuffers (GLsizei n, GLuint *renderbuffers);|
+GL_ES_VERSION_2_0|glGenTextures|GL_APICALL void GL_APIENTRY glGenTextures (GLsizei n, GLuint *textures);|
+GL_ES_VERSION_2_0|glGetActiveAttrib|GL_APICALL void GL_APIENTRY glGetActiveAttrib (GLuint program, GLuint index, GLsizei bufSize, GLsizei *length, GLint *size, GLenum *type, GLchar *name);|
+GL_ES_VERSION_2_0|glGetActiveUniform|GL_APICALL void GL_APIENTRY glGetActiveUniform (GLuint program, GLuint index, GLsizei bufSize, GLsizei *length, GLint *size, GLenum *type, GLchar *name);|
+GL_ES_VERSION_2_0|glGetAttachedShaders|GL_APICALL void GL_APIENTRY glGetAttachedShaders (GLuint program, GLsizei maxCount, GLsizei *count, GLuint *shaders);|
+GL_ES_VERSION_2_0|glGetAttribLocation|GL_APICALL GLint GL_APIENTRY glGetAttribLocation (GLuint program, const GLchar *name);|
+GL_ES_VERSION_2_0|glGetBooleanv|GL_APICALL void GL_APIENTRY glGetBooleanv (GLenum pname, GLboolean *data);|
+GL_ES_VERSION_2_0|glGetBufferParameteriv|GL_APICALL void GL_APIENTRY glGetBufferParameteriv (GLenum target, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetError|GL_APICALL GLenum GL_APIENTRY glGetError (void);|
+GL_ES_VERSION_2_0|glGetFloatv|GL_APICALL void GL_APIENTRY glGetFloatv (GLenum pname, GLfloat *data);|
+GL_ES_VERSION_2_0|glGetFramebufferAttachmentParameteriv|GL_APICALL void GL_APIENTRY glGetFramebufferAttachmentParameteriv (GLenum target, GLenum attachment, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetIntegerv|GL_APICALL void GL_APIENTRY glGetIntegerv (GLenum pname, GLint *data);|
+GL_ES_VERSION_2_0|glGetProgramiv|GL_APICALL void GL_APIENTRY glGetProgramiv (GLuint program, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetProgramInfoLog|GL_APICALL void GL_APIENTRY glGetProgramInfoLog (GLuint program, GLsizei bufSize, GLsizei *length, GLchar *infoLog);|
+GL_ES_VERSION_2_0|glGetRenderbufferParameteriv|GL_APICALL void GL_APIENTRY glGetRenderbufferParameteriv (GLenum target, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetShaderiv|GL_APICALL void GL_APIENTRY glGetShaderiv (GLuint shader, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetShaderInfoLog|GL_APICALL void GL_APIENTRY glGetShaderInfoLog (GLuint shader, GLsizei bufSize, GLsizei *length, GLchar *infoLog);|
+GL_ES_VERSION_2_0|glGetShaderPrecisionFormat|GL_APICALL void GL_APIENTRY glGetShaderPrecisionFormat (GLenum shadertype, GLenum precisiontype, GLint *range, GLint *precision);|
+GL_ES_VERSION_2_0|glGetShaderSource|GL_APICALL void GL_APIENTRY glGetShaderSource (GLuint shader, GLsizei bufSize, GLsizei *length, GLchar *source);|
+GL_ES_VERSION_2_0|glGetString|GL_APICALL const GLubyte *GL_APIENTRY glGetString (GLenum name);|
+GL_ES_VERSION_2_0|glGetTexParameterfv|GL_APICALL void GL_APIENTRY glGetTexParameterfv (GLenum target, GLenum pname, GLfloat *params);|
+GL_ES_VERSION_2_0|glGetTexParameteriv|GL_APICALL void GL_APIENTRY glGetTexParameteriv (GLenum target, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetUniformfv|GL_APICALL void GL_APIENTRY glGetUniformfv (GLuint program, GLint location, GLfloat *params);|
+GL_ES_VERSION_2_0|glGetUniformiv|GL_APICALL void GL_APIENTRY glGetUniformiv (GLuint program, GLint location, GLint *params);|
+GL_ES_VERSION_2_0|glGetUniformLocation|GL_APICALL GLint GL_APIENTRY glGetUniformLocation (GLuint program, const GLchar *name);|
+GL_ES_VERSION_2_0|glGetVertexAttribfv|GL_APICALL void GL_APIENTRY glGetVertexAttribfv (GLuint index, GLenum pname, GLfloat *params);|
+GL_ES_VERSION_2_0|glGetVertexAttribiv|GL_APICALL void GL_APIENTRY glGetVertexAttribiv (GLuint index, GLenum pname, GLint *params);|
+GL_ES_VERSION_2_0|glGetVertexAttribPointerv|GL_APICALL void GL_APIENTRY glGetVertexAttribPointerv (GLuint index, GLenum pname, void **pointer);|
+GL_ES_VERSION_2_0|glHint|GL_APICALL void GL_APIENTRY glHint (GLenum target, GLenum mode);|
+GL_ES_VERSION_2_0|glIsBuffer|GL_APICALL GLboolean GL_APIENTRY glIsBuffer (GLuint buffer);|
+GL_ES_VERSION_2_0|glIsEnabled|GL_APICALL GLboolean GL_APIENTRY glIsEnabled (GLenum cap);|
+GL_ES_VERSION_2_0|glIsFramebuffer|GL_APICALL GLboolean GL_APIENTRY glIsFramebuffer (GLuint framebuffer);|
+GL_ES_VERSION_2_0|glIsProgram|GL_APICALL GLboolean GL_APIENTRY glIsProgram (GLuint program);|
+GL_ES_VERSION_2_0|glIsRenderbuffer|GL_APICALL GLboolean GL_APIENTRY glIsRenderbuffer (GLuint renderbuffer);|
+GL_ES_VERSION_2_0|glIsShader|GL_APICALL GLboolean GL_APIENTRY glIsShader (GLuint shader);|
+GL_ES_VERSION_2_0|glIsTexture|GL_APICALL GLboolean GL_APIENTRY glIsTexture (GLuint texture);|
+GL_ES_VERSION_2_0|glLineWidth|GL_APICALL void GL_APIENTRY glLineWidth (GLfloat width);|
+GL_ES_VERSION_2_0|glLinkProgram|GL_APICALL void GL_APIENTRY glLinkProgram (GLuint program);|
+GL_ES_VERSION_2_0|glPixelStorei|GL_APICALL void GL_APIENTRY glPixelStorei (GLenum pname, GLint param);|
+GL_ES_VERSION_2_0|glPolygonOffset|GL_APICALL void GL_APIENTRY glPolygonOffset (GLfloat factor, GLfloat units);|
+GL_ES_VERSION_2_0|glReadPixels|GL_APICALL void GL_APIENTRY glReadPixels (GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, void *pixels);|
+GL_ES_VERSION_2_0|glReleaseShaderCompiler|GL_APICALL void GL_APIENTRY glReleaseShaderCompiler (void);|
+GL_ES_VERSION_2_0|glRenderbufferStorage|GL_APICALL void GL_APIENTRY glRenderbufferStorage (GLenum target, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_ES_VERSION_2_0|glSampleCoverage|GL_APICALL void GL_APIENTRY glSampleCoverage (GLfloat value, GLboolean invert);|
+GL_ES_VERSION_2_0|glScissor|GL_APICALL void GL_APIENTRY glScissor (GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_ES_VERSION_2_0|glShaderBinary|GL_APICALL void GL_APIENTRY glShaderBinary (GLsizei count, const GLuint *shaders, GLenum binaryFormat, const void *binary, GLsizei length);|
+GL_ES_VERSION_2_0|glShaderSource|GL_APICALL void GL_APIENTRY glShaderSource (GLuint shader, GLsizei count, const GLchar *const*string, const GLint *length);|
+GL_ES_VERSION_2_0|glStencilFunc|GL_APICALL void GL_APIENTRY glStencilFunc (GLenum func, GLint ref, GLuint mask);|
+GL_ES_VERSION_2_0|glStencilFuncSeparate|GL_APICALL void GL_APIENTRY glStencilFuncSeparate (GLenum face, GLenum func, GLint ref, GLuint mask);|
+GL_ES_VERSION_2_0|glStencilMask|GL_APICALL void GL_APIENTRY glStencilMask (GLuint mask);|
+GL_ES_VERSION_2_0|glStencilMaskSeparate|GL_APICALL void GL_APIENTRY glStencilMaskSeparate (GLenum face, GLuint mask);|
+GL_ES_VERSION_2_0|glStencilOp|GL_APICALL void GL_APIENTRY glStencilOp (GLenum fail, GLenum zfail, GLenum zpass);|
+GL_ES_VERSION_2_0|glStencilOpSeparate|GL_APICALL void GL_APIENTRY glStencilOpSeparate (GLenum face, GLenum sfail, GLenum dpfail, GLenum dppass);|
+GL_ES_VERSION_2_0|glTexImage2D|GL_APICALL void GL_APIENTRY glTexImage2D (GLenum target, GLint level, GLint internalformat, GLsizei width, GLsizei height, GLint border, GLenum format, GLenum type, const void *pixels);|
+GL_ES_VERSION_2_0|glTexParameterf|GL_APICALL void GL_APIENTRY glTexParameterf (GLenum target, GLenum pname, GLfloat param);|
+GL_ES_VERSION_2_0|glTexParameterfv|GL_APICALL void GL_APIENTRY glTexParameterfv (GLenum target, GLenum pname, const GLfloat *params);|
+GL_ES_VERSION_2_0|glTexParameteri|GL_APICALL void GL_APIENTRY glTexParameteri (GLenum target, GLenum pname, GLint param);|
+GL_ES_VERSION_2_0|glTexParameteriv|GL_APICALL void GL_APIENTRY glTexParameteriv (GLenum target, GLenum pname, const GLint *params);|
+GL_ES_VERSION_2_0|glTexSubImage2D|GL_APICALL void GL_APIENTRY glTexSubImage2D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLsizei width, GLsizei height, GLenum format, GLenum type, const void *pixels);|
+GL_ES_VERSION_2_0|glUniform1f|GL_APICALL void GL_APIENTRY glUniform1f (GLint location, GLfloat v0);|
+GL_ES_VERSION_2_0|glUniform1fv|GL_APICALL void GL_APIENTRY glUniform1fv (GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUniform1i|GL_APICALL void GL_APIENTRY glUniform1i (GLint location, GLint v0);|
+GL_ES_VERSION_2_0|glUniform1iv|GL_APICALL void GL_APIENTRY glUniform1iv (GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_2_0|glUniform2f|GL_APICALL void GL_APIENTRY glUniform2f (GLint location, GLfloat v0, GLfloat v1);|
+GL_ES_VERSION_2_0|glUniform2fv|GL_APICALL void GL_APIENTRY glUniform2fv (GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUniform2i|GL_APICALL void GL_APIENTRY glUniform2i (GLint location, GLint v0, GLint v1);|
+GL_ES_VERSION_2_0|glUniform2iv|GL_APICALL void GL_APIENTRY glUniform2iv (GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_2_0|glUniform3f|GL_APICALL void GL_APIENTRY glUniform3f (GLint location, GLfloat v0, GLfloat v1, GLfloat v2);|
+GL_ES_VERSION_2_0|glUniform3fv|GL_APICALL void GL_APIENTRY glUniform3fv (GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUniform3i|GL_APICALL void GL_APIENTRY glUniform3i (GLint location, GLint v0, GLint v1, GLint v2);|
+GL_ES_VERSION_2_0|glUniform3iv|GL_APICALL void GL_APIENTRY glUniform3iv (GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_2_0|glUniform4f|GL_APICALL void GL_APIENTRY glUniform4f (GLint location, GLfloat v0, GLfloat v1, GLfloat v2, GLfloat v3);|
+GL_ES_VERSION_2_0|glUniform4fv|GL_APICALL void GL_APIENTRY glUniform4fv (GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUniform4i|GL_APICALL void GL_APIENTRY glUniform4i (GLint location, GLint v0, GLint v1, GLint v2, GLint v3);|
+GL_ES_VERSION_2_0|glUniform4iv|GL_APICALL void GL_APIENTRY glUniform4iv (GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_2_0|glUniformMatrix2fv|GL_APICALL void GL_APIENTRY glUniformMatrix2fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUniformMatrix3fv|GL_APICALL void GL_APIENTRY glUniformMatrix3fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUniformMatrix4fv|GL_APICALL void GL_APIENTRY glUniformMatrix4fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_2_0|glUseProgram|GL_APICALL void GL_APIENTRY glUseProgram (GLuint program);|
+GL_ES_VERSION_2_0|glValidateProgram|GL_APICALL void GL_APIENTRY glValidateProgram (GLuint program);|
+GL_ES_VERSION_2_0|glVertexAttrib1f|GL_APICALL void GL_APIENTRY glVertexAttrib1f (GLuint index, GLfloat x);|
+GL_ES_VERSION_2_0|glVertexAttrib1fv|GL_APICALL void GL_APIENTRY glVertexAttrib1fv (GLuint index, const GLfloat *v);|
+GL_ES_VERSION_2_0|glVertexAttrib2f|GL_APICALL void GL_APIENTRY glVertexAttrib2f (GLuint index, GLfloat x, GLfloat y);|
+GL_ES_VERSION_2_0|glVertexAttrib2fv|GL_APICALL void GL_APIENTRY glVertexAttrib2fv (GLuint index, const GLfloat *v);|
+GL_ES_VERSION_2_0|glVertexAttrib3f|GL_APICALL void GL_APIENTRY glVertexAttrib3f (GLuint index, GLfloat x, GLfloat y, GLfloat z);|
+GL_ES_VERSION_2_0|glVertexAttrib3fv|GL_APICALL void GL_APIENTRY glVertexAttrib3fv (GLuint index, const GLfloat *v);|
+GL_ES_VERSION_2_0|glVertexAttrib4f|GL_APICALL void GL_APIENTRY glVertexAttrib4f (GLuint index, GLfloat x, GLfloat y, GLfloat z, GLfloat w);|
+GL_ES_VERSION_2_0|glVertexAttrib4fv|GL_APICALL void GL_APIENTRY glVertexAttrib4fv (GLuint index, const GLfloat *v);|
+GL_ES_VERSION_2_0|glVertexAttribPointer|GL_APICALL void GL_APIENTRY glVertexAttribPointer (GLuint index, GLint size, GLenum type, GLboolean normalized, GLsizei stride, const void *pointer);|
+GL_ES_VERSION_2_0|glViewport|GL_APICALL void GL_APIENTRY glViewport (GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_ES_VERSION_3_0|glReadBuffer|GL_APICALL void GL_APIENTRY glReadBuffer (GLenum src);|
+GL_ES_VERSION_3_0|glDrawRangeElements|GL_APICALL void GL_APIENTRY glDrawRangeElements (GLenum mode, GLuint start, GLuint end, GLsizei count, GLenum type, const void *indices);|
+GL_ES_VERSION_3_0|glTexImage3D|GL_APICALL void GL_APIENTRY glTexImage3D (GLenum target, GLint level, GLint internalformat, GLsizei width, GLsizei height, GLsizei depth, GLint border, GLenum format, GLenum type, const void *pixels);|
+GL_ES_VERSION_3_0|glTexSubImage3D|GL_APICALL void GL_APIENTRY glTexSubImage3D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLenum type, const void *pixels);|
+GL_ES_VERSION_3_0|glCopyTexSubImage3D|GL_APICALL void GL_APIENTRY glCopyTexSubImage3D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_ES_VERSION_3_0|glCompressedTexImage3D|GL_APICALL void GL_APIENTRY glCompressedTexImage3D (GLenum target, GLint level, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth, GLint border, GLsizei imageSize, const void *data);|
+GL_ES_VERSION_3_0|glCompressedTexSubImage3D|GL_APICALL void GL_APIENTRY glCompressedTexSubImage3D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLsizei imageSize, const void *data);|
+GL_ES_VERSION_3_0|glGenQueries|GL_APICALL void GL_APIENTRY glGenQueries (GLsizei n, GLuint *ids);|
+GL_ES_VERSION_3_0|glDeleteQueries|GL_APICALL void GL_APIENTRY glDeleteQueries (GLsizei n, const GLuint *ids);|
+GL_ES_VERSION_3_0|glIsQuery|GL_APICALL GLboolean GL_APIENTRY glIsQuery (GLuint id);|
+GL_ES_VERSION_3_0|glBeginQuery|GL_APICALL void GL_APIENTRY glBeginQuery (GLenum target, GLuint id);|
+GL_ES_VERSION_3_0|glEndQuery|GL_APICALL void GL_APIENTRY glEndQuery (GLenum target);|
+GL_ES_VERSION_3_0|glGetQueryiv|GL_APICALL void GL_APIENTRY glGetQueryiv (GLenum target, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_0|glGetQueryObjectuiv|GL_APICALL void GL_APIENTRY glGetQueryObjectuiv (GLuint id, GLenum pname, GLuint *params);|
+GL_ES_VERSION_3_0|glUnmapBuffer|GL_APICALL GLboolean GL_APIENTRY glUnmapBuffer (GLenum target);|
+GL_ES_VERSION_3_0|glGetBufferPointerv|GL_APICALL void GL_APIENTRY glGetBufferPointerv (GLenum target, GLenum pname, void **params);|
+GL_ES_VERSION_3_0|glDrawBuffers|GL_APICALL void GL_APIENTRY glDrawBuffers (GLsizei n, const GLenum *bufs);|
+GL_ES_VERSION_3_0|glUniformMatrix2x3fv|GL_APICALL void GL_APIENTRY glUniformMatrix2x3fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_0|glUniformMatrix3x2fv|GL_APICALL void GL_APIENTRY glUniformMatrix3x2fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_0|glUniformMatrix2x4fv|GL_APICALL void GL_APIENTRY glUniformMatrix2x4fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_0|glUniformMatrix4x2fv|GL_APICALL void GL_APIENTRY glUniformMatrix4x2fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_0|glUniformMatrix3x4fv|GL_APICALL void GL_APIENTRY glUniformMatrix3x4fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_0|glUniformMatrix4x3fv|GL_APICALL void GL_APIENTRY glUniformMatrix4x3fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_0|glBlitFramebuffer|GL_APICALL void GL_APIENTRY glBlitFramebuffer (GLint srcX0, GLint srcY0, GLint srcX1, GLint srcY1, GLint dstX0, GLint dstY0, GLint dstX1, GLint dstY1, GLbitfield mask, GLenum filter);|
+GL_ES_VERSION_3_0|glRenderbufferStorageMultisample|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisample (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_ES_VERSION_3_0|glFramebufferTextureLayer|GL_APICALL void GL_APIENTRY glFramebufferTextureLayer (GLenum target, GLenum attachment, GLuint texture, GLint level, GLint layer);|
+GL_ES_VERSION_3_0|glMapBufferRange|GL_APICALL void *GL_APIENTRY glMapBufferRange (GLenum target, GLintptr offset, GLsizeiptr length, GLbitfield access);|
+GL_ES_VERSION_3_0|glFlushMappedBufferRange|GL_APICALL void GL_APIENTRY glFlushMappedBufferRange (GLenum target, GLintptr offset, GLsizeiptr length);|
+GL_ES_VERSION_3_0|glBindVertexArray|GL_APICALL void GL_APIENTRY glBindVertexArray (GLuint array);|
+GL_ES_VERSION_3_0|glDeleteVertexArrays|GL_APICALL void GL_APIENTRY glDeleteVertexArrays (GLsizei n, const GLuint *arrays);|
+GL_ES_VERSION_3_0|glGenVertexArrays|GL_APICALL void GL_APIENTRY glGenVertexArrays (GLsizei n, GLuint *arrays);|
+GL_ES_VERSION_3_0|glIsVertexArray|GL_APICALL GLboolean GL_APIENTRY glIsVertexArray (GLuint array);|
+GL_ES_VERSION_3_0|glGetIntegeri_v|GL_APICALL void GL_APIENTRY glGetIntegeri_v (GLenum target, GLuint index, GLint *data);|
+GL_ES_VERSION_3_0|glBeginTransformFeedback|GL_APICALL void GL_APIENTRY glBeginTransformFeedback (GLenum primitiveMode);|
+GL_ES_VERSION_3_0|glEndTransformFeedback|GL_APICALL void GL_APIENTRY glEndTransformFeedback (void);|
+GL_ES_VERSION_3_0|glBindBufferRange|GL_APICALL void GL_APIENTRY glBindBufferRange (GLenum target, GLuint index, GLuint buffer, GLintptr offset, GLsizeiptr size);|
+GL_ES_VERSION_3_0|glBindBufferBase|GL_APICALL void GL_APIENTRY glBindBufferBase (GLenum target, GLuint index, GLuint buffer);|
+GL_ES_VERSION_3_0|glTransformFeedbackVaryings|GL_APICALL void GL_APIENTRY glTransformFeedbackVaryings (GLuint program, GLsizei count, const GLchar *const*varyings, GLenum bufferMode);|
+GL_ES_VERSION_3_0|glGetTransformFeedbackVarying|GL_APICALL void GL_APIENTRY glGetTransformFeedbackVarying (GLuint program, GLuint index, GLsizei bufSize, GLsizei *length, GLsizei *size, GLenum *type, GLchar *name);|
+GL_ES_VERSION_3_0|glVertexAttribIPointer|GL_APICALL void GL_APIENTRY glVertexAttribIPointer (GLuint index, GLint size, GLenum type, GLsizei stride, const void *pointer);|
+GL_ES_VERSION_3_0|glGetVertexAttribIiv|GL_APICALL void GL_APIENTRY glGetVertexAttribIiv (GLuint index, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_0|glGetVertexAttribIuiv|GL_APICALL void GL_APIENTRY glGetVertexAttribIuiv (GLuint index, GLenum pname, GLuint *params);|
+GL_ES_VERSION_3_0|glVertexAttribI4i|GL_APICALL void GL_APIENTRY glVertexAttribI4i (GLuint index, GLint x, GLint y, GLint z, GLint w);|
+GL_ES_VERSION_3_0|glVertexAttribI4ui|GL_APICALL void GL_APIENTRY glVertexAttribI4ui (GLuint index, GLuint x, GLuint y, GLuint z, GLuint w);|
+GL_ES_VERSION_3_0|glVertexAttribI4iv|GL_APICALL void GL_APIENTRY glVertexAttribI4iv (GLuint index, const GLint *v);|
+GL_ES_VERSION_3_0|glVertexAttribI4uiv|GL_APICALL void GL_APIENTRY glVertexAttribI4uiv (GLuint index, const GLuint *v);|
+GL_ES_VERSION_3_0|glGetUniformuiv|GL_APICALL void GL_APIENTRY glGetUniformuiv (GLuint program, GLint location, GLuint *params);|
+GL_ES_VERSION_3_0|glGetFragDataLocation|GL_APICALL GLint GL_APIENTRY glGetFragDataLocation (GLuint program, const GLchar *name);|
+GL_ES_VERSION_3_0|glUniform1ui|GL_APICALL void GL_APIENTRY glUniform1ui (GLint location, GLuint v0);|
+GL_ES_VERSION_3_0|glUniform2ui|GL_APICALL void GL_APIENTRY glUniform2ui (GLint location, GLuint v0, GLuint v1);|
+GL_ES_VERSION_3_0|glUniform3ui|GL_APICALL void GL_APIENTRY glUniform3ui (GLint location, GLuint v0, GLuint v1, GLuint v2);|
+GL_ES_VERSION_3_0|glUniform4ui|GL_APICALL void GL_APIENTRY glUniform4ui (GLint location, GLuint v0, GLuint v1, GLuint v2, GLuint v3);|
+GL_ES_VERSION_3_0|glUniform1uiv|GL_APICALL void GL_APIENTRY glUniform1uiv (GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_0|glUniform2uiv|GL_APICALL void GL_APIENTRY glUniform2uiv (GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_0|glUniform3uiv|GL_APICALL void GL_APIENTRY glUniform3uiv (GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_0|glUniform4uiv|GL_APICALL void GL_APIENTRY glUniform4uiv (GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_0|glClearBufferiv|GL_APICALL void GL_APIENTRY glClearBufferiv (GLenum buffer, GLint drawbuffer, const GLint *value);|
+GL_ES_VERSION_3_0|glClearBufferuiv|GL_APICALL void GL_APIENTRY glClearBufferuiv (GLenum buffer, GLint drawbuffer, const GLuint *value);|
+GL_ES_VERSION_3_0|glClearBufferfv|GL_APICALL void GL_APIENTRY glClearBufferfv (GLenum buffer, GLint drawbuffer, const GLfloat *value);|
+GL_ES_VERSION_3_0|glClearBufferfi|GL_APICALL void GL_APIENTRY glClearBufferfi (GLenum buffer, GLint drawbuffer, GLfloat depth, GLint stencil);|
+GL_ES_VERSION_3_0|glGetStringi|GL_APICALL const GLubyte *GL_APIENTRY glGetStringi (GLenum name, GLuint index);|
+GL_ES_VERSION_3_0|glCopyBufferSubData|GL_APICALL void GL_APIENTRY glCopyBufferSubData (GLenum readTarget, GLenum writeTarget, GLintptr readOffset, GLintptr writeOffset, GLsizeiptr size);|
+GL_ES_VERSION_3_0|glGetUniformIndices|GL_APICALL void GL_APIENTRY glGetUniformIndices (GLuint program, GLsizei uniformCount, const GLchar *const*uniformNames, GLuint *uniformIndices);|
+GL_ES_VERSION_3_0|glGetActiveUniformsiv|GL_APICALL void GL_APIENTRY glGetActiveUniformsiv (GLuint program, GLsizei uniformCount, const GLuint *uniformIndices, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_0|glGetUniformBlockIndex|GL_APICALL GLuint GL_APIENTRY glGetUniformBlockIndex (GLuint program, const GLchar *uniformBlockName);|
+GL_ES_VERSION_3_0|glGetActiveUniformBlockiv|GL_APICALL void GL_APIENTRY glGetActiveUniformBlockiv (GLuint program, GLuint uniformBlockIndex, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_0|glGetActiveUniformBlockName|GL_APICALL void GL_APIENTRY glGetActiveUniformBlockName (GLuint program, GLuint uniformBlockIndex, GLsizei bufSize, GLsizei *length, GLchar *uniformBlockName);|
+GL_ES_VERSION_3_0|glUniformBlockBinding|GL_APICALL void GL_APIENTRY glUniformBlockBinding (GLuint program, GLuint uniformBlockIndex, GLuint uniformBlockBinding);|
+GL_ES_VERSION_3_0|glDrawArraysInstanced|GL_APICALL void GL_APIENTRY glDrawArraysInstanced (GLenum mode, GLint first, GLsizei count, GLsizei instancecount);|
+GL_ES_VERSION_3_0|glDrawElementsInstanced|GL_APICALL void GL_APIENTRY glDrawElementsInstanced (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei instancecount);|
+GL_ES_VERSION_3_0|glFenceSync|GL_APICALL GLsync GL_APIENTRY glFenceSync (GLenum condition, GLbitfield flags);|
+GL_ES_VERSION_3_0|glIsSync|GL_APICALL GLboolean GL_APIENTRY glIsSync (GLsync sync);|
+GL_ES_VERSION_3_0|glDeleteSync|GL_APICALL void GL_APIENTRY glDeleteSync (GLsync sync);|
+GL_ES_VERSION_3_0|glClientWaitSync|GL_APICALL GLenum GL_APIENTRY glClientWaitSync (GLsync sync, GLbitfield flags, GLuint64 timeout);|
+GL_ES_VERSION_3_0|glWaitSync|GL_APICALL void GL_APIENTRY glWaitSync (GLsync sync, GLbitfield flags, GLuint64 timeout);|
+GL_ES_VERSION_3_0|glGetInteger64v|GL_APICALL void GL_APIENTRY glGetInteger64v (GLenum pname, GLint64 *data);|
+GL_ES_VERSION_3_0|glGetSynciv|GL_APICALL void GL_APIENTRY glGetSynciv (GLsync sync, GLenum pname, GLsizei count, GLsizei *length, GLint *values);|
+GL_ES_VERSION_3_0|glGetInteger64i_v|GL_APICALL void GL_APIENTRY glGetInteger64i_v (GLenum target, GLuint index, GLint64 *data);|
+GL_ES_VERSION_3_0|glGetBufferParameteri64v|GL_APICALL void GL_APIENTRY glGetBufferParameteri64v (GLenum target, GLenum pname, GLint64 *params);|
+GL_ES_VERSION_3_0|glGenSamplers|GL_APICALL void GL_APIENTRY glGenSamplers (GLsizei count, GLuint *samplers);|
+GL_ES_VERSION_3_0|glDeleteSamplers|GL_APICALL void GL_APIENTRY glDeleteSamplers (GLsizei count, const GLuint *samplers);|
+GL_ES_VERSION_3_0|glIsSampler|GL_APICALL GLboolean GL_APIENTRY glIsSampler (GLuint sampler);|
+GL_ES_VERSION_3_0|glBindSampler|GL_APICALL void GL_APIENTRY glBindSampler (GLuint unit, GLuint sampler);|
+GL_ES_VERSION_3_0|glSamplerParameteri|GL_APICALL void GL_APIENTRY glSamplerParameteri (GLuint sampler, GLenum pname, GLint param);|
+GL_ES_VERSION_3_0|glSamplerParameteriv|GL_APICALL void GL_APIENTRY glSamplerParameteriv (GLuint sampler, GLenum pname, const GLint *param);|
+GL_ES_VERSION_3_0|glSamplerParameterf|GL_APICALL void GL_APIENTRY glSamplerParameterf (GLuint sampler, GLenum pname, GLfloat param);|
+GL_ES_VERSION_3_0|glSamplerParameterfv|GL_APICALL void GL_APIENTRY glSamplerParameterfv (GLuint sampler, GLenum pname, const GLfloat *param);|
+GL_ES_VERSION_3_0|glGetSamplerParameteriv|GL_APICALL void GL_APIENTRY glGetSamplerParameteriv (GLuint sampler, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_0|glGetSamplerParameterfv|GL_APICALL void GL_APIENTRY glGetSamplerParameterfv (GLuint sampler, GLenum pname, GLfloat *params);|
+GL_ES_VERSION_3_0|glVertexAttribDivisor|GL_APICALL void GL_APIENTRY glVertexAttribDivisor (GLuint index, GLuint divisor);|
+GL_ES_VERSION_3_0|glBindTransformFeedback|GL_APICALL void GL_APIENTRY glBindTransformFeedback (GLenum target, GLuint id);|
+GL_ES_VERSION_3_0|glDeleteTransformFeedbacks|GL_APICALL void GL_APIENTRY glDeleteTransformFeedbacks (GLsizei n, const GLuint *ids);|
+GL_ES_VERSION_3_0|glGenTransformFeedbacks|GL_APICALL void GL_APIENTRY glGenTransformFeedbacks (GLsizei n, GLuint *ids);|
+GL_ES_VERSION_3_0|glIsTransformFeedback|GL_APICALL GLboolean GL_APIENTRY glIsTransformFeedback (GLuint id);|
+GL_ES_VERSION_3_0|glPauseTransformFeedback|GL_APICALL void GL_APIENTRY glPauseTransformFeedback (void);|
+GL_ES_VERSION_3_0|glResumeTransformFeedback|GL_APICALL void GL_APIENTRY glResumeTransformFeedback (void);|
+GL_ES_VERSION_3_0|glGetProgramBinary|GL_APICALL void GL_APIENTRY glGetProgramBinary (GLuint program, GLsizei bufSize, GLsizei *length, GLenum *binaryFormat, void *binary);|
+GL_ES_VERSION_3_0|glProgramBinary|GL_APICALL void GL_APIENTRY glProgramBinary (GLuint program, GLenum binaryFormat, const void *binary, GLsizei length);|
+GL_ES_VERSION_3_0|glProgramParameteri|GL_APICALL void GL_APIENTRY glProgramParameteri (GLuint program, GLenum pname, GLint value);|
+GL_ES_VERSION_3_0|glInvalidateFramebuffer|GL_APICALL void GL_APIENTRY glInvalidateFramebuffer (GLenum target, GLsizei numAttachments, const GLenum *attachments);|
+GL_ES_VERSION_3_0|glInvalidateSubFramebuffer|GL_APICALL void GL_APIENTRY glInvalidateSubFramebuffer (GLenum target, GLsizei numAttachments, const GLenum *attachments, GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_ES_VERSION_3_0|glTexStorage2D|GL_APICALL void GL_APIENTRY glTexStorage2D (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_ES_VERSION_3_0|glTexStorage3D|GL_APICALL void GL_APIENTRY glTexStorage3D (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth);|
+GL_ES_VERSION_3_0|glGetInternalformativ|GL_APICALL void GL_APIENTRY glGetInternalformativ (GLenum target, GLenum internalformat, GLenum pname, GLsizei count, GLint *params);|
+GL_ES_VERSION_3_1|glDispatchCompute|GL_APICALL void GL_APIENTRY glDispatchCompute (GLuint num_groups_x, GLuint num_groups_y, GLuint num_groups_z);|
+GL_ES_VERSION_3_1|glDispatchComputeIndirect|GL_APICALL void GL_APIENTRY glDispatchComputeIndirect (GLintptr indirect);|
+GL_ES_VERSION_3_1|glDrawArraysIndirect|GL_APICALL void GL_APIENTRY glDrawArraysIndirect (GLenum mode, const void *indirect);|
+GL_ES_VERSION_3_1|glDrawElementsIndirect|GL_APICALL void GL_APIENTRY glDrawElementsIndirect (GLenum mode, GLenum type, const void *indirect);|
+GL_ES_VERSION_3_1|glFramebufferParameteri|GL_APICALL void GL_APIENTRY glFramebufferParameteri (GLenum target, GLenum pname, GLint param);|
+GL_ES_VERSION_3_1|glGetFramebufferParameteriv|GL_APICALL void GL_APIENTRY glGetFramebufferParameteriv (GLenum target, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_1|glGetProgramInterfaceiv|GL_APICALL void GL_APIENTRY glGetProgramInterfaceiv (GLuint program, GLenum programInterface, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_1|glGetProgramResourceIndex|GL_APICALL GLuint GL_APIENTRY glGetProgramResourceIndex (GLuint program, GLenum programInterface, const GLchar *name);|
+GL_ES_VERSION_3_1|glGetProgramResourceName|GL_APICALL void GL_APIENTRY glGetProgramResourceName (GLuint program, GLenum programInterface, GLuint index, GLsizei bufSize, GLsizei *length, GLchar *name);|
+GL_ES_VERSION_3_1|glGetProgramResourceiv|GL_APICALL void GL_APIENTRY glGetProgramResourceiv (GLuint program, GLenum programInterface, GLuint index, GLsizei propCount, const GLenum *props, GLsizei count, GLsizei *length, GLint *params);|
+GL_ES_VERSION_3_1|glGetProgramResourceLocation|GL_APICALL GLint GL_APIENTRY glGetProgramResourceLocation (GLuint program, GLenum programInterface, const GLchar *name);|
+GL_ES_VERSION_3_1|glUseProgramStages|GL_APICALL void GL_APIENTRY glUseProgramStages (GLuint pipeline, GLbitfield stages, GLuint program);|
+GL_ES_VERSION_3_1|glActiveShaderProgram|GL_APICALL void GL_APIENTRY glActiveShaderProgram (GLuint pipeline, GLuint program);|
+GL_ES_VERSION_3_1|glCreateShaderProgramv|GL_APICALL GLuint GL_APIENTRY glCreateShaderProgramv (GLenum type, GLsizei count, const GLchar *const*strings);|
+GL_ES_VERSION_3_1|glBindProgramPipeline|GL_APICALL void GL_APIENTRY glBindProgramPipeline (GLuint pipeline);|
+GL_ES_VERSION_3_1|glDeleteProgramPipelines|GL_APICALL void GL_APIENTRY glDeleteProgramPipelines (GLsizei n, const GLuint *pipelines);|
+GL_ES_VERSION_3_1|glGenProgramPipelines|GL_APICALL void GL_APIENTRY glGenProgramPipelines (GLsizei n, GLuint *pipelines);|
+GL_ES_VERSION_3_1|glIsProgramPipeline|GL_APICALL GLboolean GL_APIENTRY glIsProgramPipeline (GLuint pipeline);|
+GL_ES_VERSION_3_1|glGetProgramPipelineiv|GL_APICALL void GL_APIENTRY glGetProgramPipelineiv (GLuint pipeline, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_1|glProgramUniform1i|GL_APICALL void GL_APIENTRY glProgramUniform1i (GLuint program, GLint location, GLint v0);|
+GL_ES_VERSION_3_1|glProgramUniform2i|GL_APICALL void GL_APIENTRY glProgramUniform2i (GLuint program, GLint location, GLint v0, GLint v1);|
+GL_ES_VERSION_3_1|glProgramUniform3i|GL_APICALL void GL_APIENTRY glProgramUniform3i (GLuint program, GLint location, GLint v0, GLint v1, GLint v2);|
+GL_ES_VERSION_3_1|glProgramUniform4i|GL_APICALL void GL_APIENTRY glProgramUniform4i (GLuint program, GLint location, GLint v0, GLint v1, GLint v2, GLint v3);|
+GL_ES_VERSION_3_1|glProgramUniform1ui|GL_APICALL void GL_APIENTRY glProgramUniform1ui (GLuint program, GLint location, GLuint v0);|
+GL_ES_VERSION_3_1|glProgramUniform2ui|GL_APICALL void GL_APIENTRY glProgramUniform2ui (GLuint program, GLint location, GLuint v0, GLuint v1);|
+GL_ES_VERSION_3_1|glProgramUniform3ui|GL_APICALL void GL_APIENTRY glProgramUniform3ui (GLuint program, GLint location, GLuint v0, GLuint v1, GLuint v2);|
+GL_ES_VERSION_3_1|glProgramUniform4ui|GL_APICALL void GL_APIENTRY glProgramUniform4ui (GLuint program, GLint location, GLuint v0, GLuint v1, GLuint v2, GLuint v3);|
+GL_ES_VERSION_3_1|glProgramUniform1f|GL_APICALL void GL_APIENTRY glProgramUniform1f (GLuint program, GLint location, GLfloat v0);|
+GL_ES_VERSION_3_1|glProgramUniform2f|GL_APICALL void GL_APIENTRY glProgramUniform2f (GLuint program, GLint location, GLfloat v0, GLfloat v1);|
+GL_ES_VERSION_3_1|glProgramUniform3f|GL_APICALL void GL_APIENTRY glProgramUniform3f (GLuint program, GLint location, GLfloat v0, GLfloat v1, GLfloat v2);|
+GL_ES_VERSION_3_1|glProgramUniform4f|GL_APICALL void GL_APIENTRY glProgramUniform4f (GLuint program, GLint location, GLfloat v0, GLfloat v1, GLfloat v2, GLfloat v3);|
+GL_ES_VERSION_3_1|glProgramUniform1iv|GL_APICALL void GL_APIENTRY glProgramUniform1iv (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_3_1|glProgramUniform2iv|GL_APICALL void GL_APIENTRY glProgramUniform2iv (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_3_1|glProgramUniform3iv|GL_APICALL void GL_APIENTRY glProgramUniform3iv (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_3_1|glProgramUniform4iv|GL_APICALL void GL_APIENTRY glProgramUniform4iv (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_ES_VERSION_3_1|glProgramUniform1uiv|GL_APICALL void GL_APIENTRY glProgramUniform1uiv (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_1|glProgramUniform2uiv|GL_APICALL void GL_APIENTRY glProgramUniform2uiv (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_1|glProgramUniform3uiv|GL_APICALL void GL_APIENTRY glProgramUniform3uiv (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_1|glProgramUniform4uiv|GL_APICALL void GL_APIENTRY glProgramUniform4uiv (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_ES_VERSION_3_1|glProgramUniform1fv|GL_APICALL void GL_APIENTRY glProgramUniform1fv (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniform2fv|GL_APICALL void GL_APIENTRY glProgramUniform2fv (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniform3fv|GL_APICALL void GL_APIENTRY glProgramUniform3fv (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniform4fv|GL_APICALL void GL_APIENTRY glProgramUniform4fv (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix2fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix2fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix3fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix3fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix4fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix4fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix2x3fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix2x3fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix3x2fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix3x2fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix2x4fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix2x4fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix4x2fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix4x2fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix3x4fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix3x4fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glProgramUniformMatrix4x3fv|GL_APICALL void GL_APIENTRY glProgramUniformMatrix4x3fv (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_ES_VERSION_3_1|glValidateProgramPipeline|GL_APICALL void GL_APIENTRY glValidateProgramPipeline (GLuint pipeline);|
+GL_ES_VERSION_3_1|glGetProgramPipelineInfoLog|GL_APICALL void GL_APIENTRY glGetProgramPipelineInfoLog (GLuint pipeline, GLsizei bufSize, GLsizei *length, GLchar *infoLog);|
+GL_ES_VERSION_3_1|glBindImageTexture|GL_APICALL void GL_APIENTRY glBindImageTexture (GLuint unit, GLuint texture, GLint level, GLboolean layered, GLint layer, GLenum access, GLenum format);|
+GL_ES_VERSION_3_1|glGetBooleani_v|GL_APICALL void GL_APIENTRY glGetBooleani_v (GLenum target, GLuint index, GLboolean *data);|
+GL_ES_VERSION_3_1|glMemoryBarrier|GL_APICALL void GL_APIENTRY glMemoryBarrier (GLbitfield barriers);|
+GL_ES_VERSION_3_1|glMemoryBarrierByRegion|GL_APICALL void GL_APIENTRY glMemoryBarrierByRegion (GLbitfield barriers);|
+GL_ES_VERSION_3_1|glTexStorage2DMultisample|GL_APICALL void GL_APIENTRY glTexStorage2DMultisample (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height, GLboolean fixedsamplelocations);|
+GL_ES_VERSION_3_1|glGetMultisamplefv|GL_APICALL void GL_APIENTRY glGetMultisamplefv (GLenum pname, GLuint index, GLfloat *val);|
+GL_ES_VERSION_3_1|glSampleMaski|GL_APICALL void GL_APIENTRY glSampleMaski (GLuint maskNumber, GLbitfield mask);|
+GL_ES_VERSION_3_1|glGetTexLevelParameteriv|GL_APICALL void GL_APIENTRY glGetTexLevelParameteriv (GLenum target, GLint level, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_1|glGetTexLevelParameterfv|GL_APICALL void GL_APIENTRY glGetTexLevelParameterfv (GLenum target, GLint level, GLenum pname, GLfloat *params);|
+GL_ES_VERSION_3_1|glBindVertexBuffer|GL_APICALL void GL_APIENTRY glBindVertexBuffer (GLuint bindingindex, GLuint buffer, GLintptr offset, GLsizei stride);|
+GL_ES_VERSION_3_1|glVertexAttribFormat|GL_APICALL void GL_APIENTRY glVertexAttribFormat (GLuint attribindex, GLint size, GLenum type, GLboolean normalized, GLuint relativeoffset);|
+GL_ES_VERSION_3_1|glVertexAttribIFormat|GL_APICALL void GL_APIENTRY glVertexAttribIFormat (GLuint attribindex, GLint size, GLenum type, GLuint relativeoffset);|
+GL_ES_VERSION_3_1|glVertexAttribBinding|GL_APICALL void GL_APIENTRY glVertexAttribBinding (GLuint attribindex, GLuint bindingindex);|
+GL_ES_VERSION_3_1|glVertexBindingDivisor|GL_APICALL void GL_APIENTRY glVertexBindingDivisor (GLuint bindingindex, GLuint divisor);|
+GL_ES_VERSION_3_2|glBlendBarrier|GL_APICALL void GL_APIENTRY glBlendBarrier (void);|
+GL_ES_VERSION_3_2|glCopyImageSubData|GL_APICALL void GL_APIENTRY glCopyImageSubData (GLuint srcName, GLenum srcTarget, GLint srcLevel, GLint srcX, GLint srcY, GLint srcZ, GLuint dstName, GLenum dstTarget, GLint dstLevel, GLint dstX, GLint dstY, GLint dstZ, GLsizei srcWidth, GLsizei srcHeight, GLsizei srcDepth);|
+GL_ES_VERSION_3_2|glDebugMessageControl|GL_APICALL void GL_APIENTRY glDebugMessageControl (GLenum source, GLenum type, GLenum severity, GLsizei count, const GLuint *ids, GLboolean enabled);|
+GL_ES_VERSION_3_2|glDebugMessageInsert|GL_APICALL void GL_APIENTRY glDebugMessageInsert (GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar *buf);|
+GL_ES_VERSION_3_2|glDebugMessageCallback|GL_APICALL void GL_APIENTRY glDebugMessageCallback (GLDEBUGPROC callback, const void *userParam);|
+GL_ES_VERSION_3_2|glGetDebugMessageLog|GL_APICALL GLuint GL_APIENTRY glGetDebugMessageLog (GLuint count, GLsizei bufSize, GLenum *sources, GLenum *types, GLuint *ids, GLenum *severities, GLsizei *lengths, GLchar *messageLog);|
+GL_ES_VERSION_3_2|glPushDebugGroup|GL_APICALL void GL_APIENTRY glPushDebugGroup (GLenum source, GLuint id, GLsizei length, const GLchar *message);|
+GL_ES_VERSION_3_2|glPopDebugGroup|GL_APICALL void GL_APIENTRY glPopDebugGroup (void);|
+GL_ES_VERSION_3_2|glObjectLabel|GL_APICALL void GL_APIENTRY glObjectLabel (GLenum identifier, GLuint name, GLsizei length, const GLchar *label);|
+GL_ES_VERSION_3_2|glGetObjectLabel|GL_APICALL void GL_APIENTRY glGetObjectLabel (GLenum identifier, GLuint name, GLsizei bufSize, GLsizei *length, GLchar *label);|
+GL_ES_VERSION_3_2|glObjectPtrLabel|GL_APICALL void GL_APIENTRY glObjectPtrLabel (const void *ptr, GLsizei length, const GLchar *label);|
+GL_ES_VERSION_3_2|glGetObjectPtrLabel|GL_APICALL void GL_APIENTRY glGetObjectPtrLabel (const void *ptr, GLsizei bufSize, GLsizei *length, GLchar *label);|
+GL_ES_VERSION_3_2|glGetPointerv|GL_APICALL void GL_APIENTRY glGetPointerv (GLenum pname, void **params);|
+GL_ES_VERSION_3_2|glEnablei|GL_APICALL void GL_APIENTRY glEnablei (GLenum target, GLuint index);|
+GL_ES_VERSION_3_2|glDisablei|GL_APICALL void GL_APIENTRY glDisablei (GLenum target, GLuint index);|
+GL_ES_VERSION_3_2|glBlendEquationi|GL_APICALL void GL_APIENTRY glBlendEquationi (GLuint buf, GLenum mode);|
+GL_ES_VERSION_3_2|glBlendEquationSeparatei|GL_APICALL void GL_APIENTRY glBlendEquationSeparatei (GLuint buf, GLenum modeRGB, GLenum modeAlpha);|
+GL_ES_VERSION_3_2|glBlendFunci|GL_APICALL void GL_APIENTRY glBlendFunci (GLuint buf, GLenum src, GLenum dst);|
+GL_ES_VERSION_3_2|glBlendFuncSeparatei|GL_APICALL void GL_APIENTRY glBlendFuncSeparatei (GLuint buf, GLenum srcRGB, GLenum dstRGB, GLenum srcAlpha, GLenum dstAlpha);|
+GL_ES_VERSION_3_2|glColorMaski|GL_APICALL void GL_APIENTRY glColorMaski (GLuint index, GLboolean r, GLboolean g, GLboolean b, GLboolean a);|
+GL_ES_VERSION_3_2|glIsEnabledi|GL_APICALL GLboolean GL_APIENTRY glIsEnabledi (GLenum target, GLuint index);|
+GL_ES_VERSION_3_2|glDrawElementsBaseVertex|GL_APICALL void GL_APIENTRY glDrawElementsBaseVertex (GLenum mode, GLsizei count, GLenum type, const void *indices, GLint basevertex);|
+GL_ES_VERSION_3_2|glDrawRangeElementsBaseVertex|GL_APICALL void GL_APIENTRY glDrawRangeElementsBaseVertex (GLenum mode, GLuint start, GLuint end, GLsizei count, GLenum type, const void *indices, GLint basevertex);|
+GL_ES_VERSION_3_2|glDrawElementsInstancedBaseVertex|GL_APICALL void GL_APIENTRY glDrawElementsInstancedBaseVertex (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei instancecount, GLint basevertex);|
+GL_ES_VERSION_3_2|glFramebufferTexture|GL_APICALL void GL_APIENTRY glFramebufferTexture (GLenum target, GLenum attachment, GLuint texture, GLint level);|
+GL_ES_VERSION_3_2|glPrimitiveBoundingBox|GL_APICALL void GL_APIENTRY glPrimitiveBoundingBox (GLfloat minX, GLfloat minY, GLfloat minZ, GLfloat minW, GLfloat maxX, GLfloat maxY, GLfloat maxZ, GLfloat maxW);|
+GL_ES_VERSION_3_2|glGetGraphicsResetStatus|GL_APICALL GLenum GL_APIENTRY glGetGraphicsResetStatus (void);|
+GL_ES_VERSION_3_2|glReadnPixels|GL_APICALL void GL_APIENTRY glReadnPixels (GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLsizei bufSize, void *data);|
+GL_ES_VERSION_3_2|glGetnUniformfv|GL_APICALL void GL_APIENTRY glGetnUniformfv (GLuint program, GLint location, GLsizei bufSize, GLfloat *params);|
+GL_ES_VERSION_3_2|glGetnUniformiv|GL_APICALL void GL_APIENTRY glGetnUniformiv (GLuint program, GLint location, GLsizei bufSize, GLint *params);|
+GL_ES_VERSION_3_2|glGetnUniformuiv|GL_APICALL void GL_APIENTRY glGetnUniformuiv (GLuint program, GLint location, GLsizei bufSize, GLuint *params);|
+GL_ES_VERSION_3_2|glMinSampleShading|GL_APICALL void GL_APIENTRY glMinSampleShading (GLfloat value);|
+GL_ES_VERSION_3_2|glPatchParameteri|GL_APICALL void GL_APIENTRY glPatchParameteri (GLenum pname, GLint value);|
+GL_ES_VERSION_3_2|glTexParameterIiv|GL_APICALL void GL_APIENTRY glTexParameterIiv (GLenum target, GLenum pname, const GLint *params);|
+GL_ES_VERSION_3_2|glTexParameterIuiv|GL_APICALL void GL_APIENTRY glTexParameterIuiv (GLenum target, GLenum pname, const GLuint *params);|
+GL_ES_VERSION_3_2|glGetTexParameterIiv|GL_APICALL void GL_APIENTRY glGetTexParameterIiv (GLenum target, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_2|glGetTexParameterIuiv|GL_APICALL void GL_APIENTRY glGetTexParameterIuiv (GLenum target, GLenum pname, GLuint *params);|
+GL_ES_VERSION_3_2|glSamplerParameterIiv|GL_APICALL void GL_APIENTRY glSamplerParameterIiv (GLuint sampler, GLenum pname, const GLint *param);|
+GL_ES_VERSION_3_2|glSamplerParameterIuiv|GL_APICALL void GL_APIENTRY glSamplerParameterIuiv (GLuint sampler, GLenum pname, const GLuint *param);|
+GL_ES_VERSION_3_2|glGetSamplerParameterIiv|GL_APICALL void GL_APIENTRY glGetSamplerParameterIiv (GLuint sampler, GLenum pname, GLint *params);|
+GL_ES_VERSION_3_2|glGetSamplerParameterIuiv|GL_APICALL void GL_APIENTRY glGetSamplerParameterIuiv (GLuint sampler, GLenum pname, GLuint *params);|
+GL_ES_VERSION_3_2|glTexBuffer|GL_APICALL void GL_APIENTRY glTexBuffer (GLenum target, GLenum internalformat, GLuint buffer);|
+GL_ES_VERSION_3_2|glTexBufferRange|GL_APICALL void GL_APIENTRY glTexBufferRange (GLenum target, GLenum internalformat, GLuint buffer, GLintptr offset, GLsizeiptr size);|
+GL_ES_VERSION_3_2|glTexStorage3DMultisample|GL_APICALL void GL_APIENTRY glTexStorage3DMultisample (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth, GLboolean fixedsamplelocations);|
+GL_KHR_blend_equation_advanced|glBlendBarrierKHR|GL_APICALL void GL_APIENTRY glBlendBarrierKHR (void);|
+GL_KHR_debug|glDebugMessageControlKHR|GL_APICALL void GL_APIENTRY glDebugMessageControlKHR (GLenum source, GLenum type, GLenum severity, GLsizei count, const GLuint *ids, GLboolean enabled);|
+GL_KHR_debug|glDebugMessageInsertKHR|GL_APICALL void GL_APIENTRY glDebugMessageInsertKHR (GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar *buf);|
+GL_KHR_debug|glDebugMessageCallbackKHR|GL_APICALL void GL_APIENTRY glDebugMessageCallbackKHR (GLDEBUGPROCKHR callback, const void *userParam);|
+GL_KHR_debug|glGetDebugMessageLogKHR|GL_APICALL GLuint GL_APIENTRY glGetDebugMessageLogKHR (GLuint count, GLsizei bufSize, GLenum *sources, GLenum *types, GLuint *ids, GLenum *severities, GLsizei *lengths, GLchar *messageLog);|
+GL_KHR_debug|glPushDebugGroupKHR|GL_APICALL void GL_APIENTRY glPushDebugGroupKHR (GLenum source, GLuint id, GLsizei length, const GLchar *message);|
+GL_KHR_debug|glPopDebugGroupKHR|GL_APICALL void GL_APIENTRY glPopDebugGroupKHR (void);|
+GL_KHR_debug|glObjectLabelKHR|GL_APICALL void GL_APIENTRY glObjectLabelKHR (GLenum identifier, GLuint name, GLsizei length, const GLchar *label);|
+GL_KHR_debug|glGetObjectLabelKHR|GL_APICALL void GL_APIENTRY glGetObjectLabelKHR (GLenum identifier, GLuint name, GLsizei bufSize, GLsizei *length, GLchar *label);|
+GL_KHR_debug|glObjectPtrLabelKHR|GL_APICALL void GL_APIENTRY glObjectPtrLabelKHR (const void *ptr, GLsizei length, const GLchar *label);|
+GL_KHR_debug|glGetObjectPtrLabelKHR|GL_APICALL void GL_APIENTRY glGetObjectPtrLabelKHR (const void *ptr, GLsizei bufSize, GLsizei *length, GLchar *label);|
+GL_KHR_debug|glGetPointervKHR|GL_APICALL void GL_APIENTRY glGetPointervKHR (GLenum pname, void **params);|
+GL_KHR_parallel_shader_compile|glMaxShaderCompilerThreadsKHR|GL_APICALL void GL_APIENTRY glMaxShaderCompilerThreadsKHR (GLuint count);|
+GL_KHR_robustness|glGetGraphicsResetStatusKHR|GL_APICALL GLenum GL_APIENTRY glGetGraphicsResetStatusKHR (void);|
+GL_KHR_robustness|glReadnPixelsKHR|GL_APICALL void GL_APIENTRY glReadnPixelsKHR (GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLsizei bufSize, void *data);|
+GL_KHR_robustness|glGetnUniformfvKHR|GL_APICALL void GL_APIENTRY glGetnUniformfvKHR (GLuint program, GLint location, GLsizei bufSize, GLfloat *params);|
+GL_KHR_robustness|glGetnUniformivKHR|GL_APICALL void GL_APIENTRY glGetnUniformivKHR (GLuint program, GLint location, GLsizei bufSize, GLint *params);|
+GL_KHR_robustness|glGetnUniformuivKHR|GL_APICALL void GL_APIENTRY glGetnUniformuivKHR (GLuint program, GLint location, GLsizei bufSize, GLuint *params);|
+GL_OES_EGL_image|glEGLImageTargetTexture2DOES|GL_APICALL void GL_APIENTRY glEGLImageTargetTexture2DOES (GLenum target, GLeglImageOES image);|
+GL_OES_EGL_image|glEGLImageTargetRenderbufferStorageOES|GL_APICALL void GL_APIENTRY glEGLImageTargetRenderbufferStorageOES (GLenum target, GLeglImageOES image);|
+GL_OES_copy_image|glCopyImageSubDataOES|GL_APICALL void GL_APIENTRY glCopyImageSubDataOES (GLuint srcName, GLenum srcTarget, GLint srcLevel, GLint srcX, GLint srcY, GLint srcZ, GLuint dstName, GLenum dstTarget, GLint dstLevel, GLint dstX, GLint dstY, GLint dstZ, GLsizei srcWidth, GLsizei srcHeight, GLsizei srcDepth);|
+GL_OES_draw_buffers_indexed|glEnableiOES|GL_APICALL void GL_APIENTRY glEnableiOES (GLenum target, GLuint index);|
+GL_OES_draw_buffers_indexed|glDisableiOES|GL_APICALL void GL_APIENTRY glDisableiOES (GLenum target, GLuint index);|
+GL_OES_draw_buffers_indexed|glBlendEquationiOES|GL_APICALL void GL_APIENTRY glBlendEquationiOES (GLuint buf, GLenum mode);|
+GL_OES_draw_buffers_indexed|glBlendEquationSeparateiOES|GL_APICALL void GL_APIENTRY glBlendEquationSeparateiOES (GLuint buf, GLenum modeRGB, GLenum modeAlpha);|
+GL_OES_draw_buffers_indexed|glBlendFunciOES|GL_APICALL void GL_APIENTRY glBlendFunciOES (GLuint buf, GLenum src, GLenum dst);|
+GL_OES_draw_buffers_indexed|glBlendFuncSeparateiOES|GL_APICALL void GL_APIENTRY glBlendFuncSeparateiOES (GLuint buf, GLenum srcRGB, GLenum dstRGB, GLenum srcAlpha, GLenum dstAlpha);|
+GL_OES_draw_buffers_indexed|glColorMaskiOES|GL_APICALL void GL_APIENTRY glColorMaskiOES (GLuint index, GLboolean r, GLboolean g, GLboolean b, GLboolean a);|
+GL_OES_draw_buffers_indexed|glIsEnablediOES|GL_APICALL GLboolean GL_APIENTRY glIsEnablediOES (GLenum target, GLuint index);|
+GL_OES_draw_elements_base_vertex|glDrawElementsBaseVertexOES|GL_APICALL void GL_APIENTRY glDrawElementsBaseVertexOES (GLenum mode, GLsizei count, GLenum type, const void *indices, GLint basevertex);|
+GL_OES_draw_elements_base_vertex|glDrawRangeElementsBaseVertexOES|GL_APICALL void GL_APIENTRY glDrawRangeElementsBaseVertexOES (GLenum mode, GLuint start, GLuint end, GLsizei count, GLenum type, const void *indices, GLint basevertex);|
+GL_OES_draw_elements_base_vertex|glDrawElementsInstancedBaseVertexOES|GL_APICALL void GL_APIENTRY glDrawElementsInstancedBaseVertexOES (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei instancecount, GLint basevertex);|
+GL_OES_draw_elements_base_vertex|glMultiDrawElementsBaseVertexEXT|GL_APICALL void GL_APIENTRY glMultiDrawElementsBaseVertexEXT (GLenum mode, const GLsizei *count, GLenum type, const void *const*indices, GLsizei drawcount, const GLint *basevertex);|
+GL_OES_geometry_shader|glFramebufferTextureOES|GL_APICALL void GL_APIENTRY glFramebufferTextureOES (GLenum target, GLenum attachment, GLuint texture, GLint level);|
+GL_OES_get_program_binary|glGetProgramBinaryOES|GL_APICALL void GL_APIENTRY glGetProgramBinaryOES (GLuint program, GLsizei bufSize, GLsizei *length, GLenum *binaryFormat, void *binary);|
+GL_OES_get_program_binary|glProgramBinaryOES|GL_APICALL void GL_APIENTRY glProgramBinaryOES (GLuint program, GLenum binaryFormat, const void *binary, GLint length);|
+GL_OES_mapbuffer|glMapBufferOES|GL_APICALL void *GL_APIENTRY glMapBufferOES (GLenum target, GLenum access);|
+GL_OES_mapbuffer|glUnmapBufferOES|GL_APICALL GLboolean GL_APIENTRY glUnmapBufferOES (GLenum target);|
+GL_OES_mapbuffer|glGetBufferPointervOES|GL_APICALL void GL_APIENTRY glGetBufferPointervOES (GLenum target, GLenum pname, void **params);|
+GL_OES_primitive_bounding_box|glPrimitiveBoundingBoxOES|GL_APICALL void GL_APIENTRY glPrimitiveBoundingBoxOES (GLfloat minX, GLfloat minY, GLfloat minZ, GLfloat minW, GLfloat maxX, GLfloat maxY, GLfloat maxZ, GLfloat maxW);|
+GL_OES_sample_shading|glMinSampleShadingOES|GL_APICALL void GL_APIENTRY glMinSampleShadingOES (GLfloat value);|
+GL_OES_tessellation_shader|glPatchParameteriOES|GL_APICALL void GL_APIENTRY glPatchParameteriOES (GLenum pname, GLint value);|
+GL_OES_texture_3D|glTexImage3DOES|GL_APICALL void GL_APIENTRY glTexImage3DOES (GLenum target, GLint level, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth, GLint border, GLenum format, GLenum type, const void *pixels);|
+GL_OES_texture_3D|glTexSubImage3DOES|GL_APICALL void GL_APIENTRY glTexSubImage3DOES (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLenum type, const void *pixels);|
+GL_OES_texture_3D|glCopyTexSubImage3DOES|GL_APICALL void GL_APIENTRY glCopyTexSubImage3DOES (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_OES_texture_3D|glCompressedTexImage3DOES|GL_APICALL void GL_APIENTRY glCompressedTexImage3DOES (GLenum target, GLint level, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth, GLint border, GLsizei imageSize, const void *data);|
+GL_OES_texture_3D|glCompressedTexSubImage3DOES|GL_APICALL void GL_APIENTRY glCompressedTexSubImage3DOES (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLsizei imageSize, const void *data);|
+GL_OES_texture_3D|glFramebufferTexture3DOES|GL_APICALL void GL_APIENTRY glFramebufferTexture3DOES (GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level, GLint zoffset);|
+GL_OES_texture_border_clamp|glTexParameterIivOES|GL_APICALL void GL_APIENTRY glTexParameterIivOES (GLenum target, GLenum pname, const GLint *params);|
+GL_OES_texture_border_clamp|glTexParameterIuivOES|GL_APICALL void GL_APIENTRY glTexParameterIuivOES (GLenum target, GLenum pname, const GLuint *params);|
+GL_OES_texture_border_clamp|glGetTexParameterIivOES|GL_APICALL void GL_APIENTRY glGetTexParameterIivOES (GLenum target, GLenum pname, GLint *params);|
+GL_OES_texture_border_clamp|glGetTexParameterIuivOES|GL_APICALL void GL_APIENTRY glGetTexParameterIuivOES (GLenum target, GLenum pname, GLuint *params);|
+GL_OES_texture_border_clamp|glSamplerParameterIivOES|GL_APICALL void GL_APIENTRY glSamplerParameterIivOES (GLuint sampler, GLenum pname, const GLint *param);|
+GL_OES_texture_border_clamp|glSamplerParameterIuivOES|GL_APICALL void GL_APIENTRY glSamplerParameterIuivOES (GLuint sampler, GLenum pname, const GLuint *param);|
+GL_OES_texture_border_clamp|glGetSamplerParameterIivOES|GL_APICALL void GL_APIENTRY glGetSamplerParameterIivOES (GLuint sampler, GLenum pname, GLint *params);|
+GL_OES_texture_border_clamp|glGetSamplerParameterIuivOES|GL_APICALL void GL_APIENTRY glGetSamplerParameterIuivOES (GLuint sampler, GLenum pname, GLuint *params);|
+GL_OES_texture_buffer|glTexBufferOES|GL_APICALL void GL_APIENTRY glTexBufferOES (GLenum target, GLenum internalformat, GLuint buffer);|
+GL_OES_texture_buffer|glTexBufferRangeOES|GL_APICALL void GL_APIENTRY glTexBufferRangeOES (GLenum target, GLenum internalformat, GLuint buffer, GLintptr offset, GLsizeiptr size);|
+GL_OES_texture_storage_multisample_2d_array|glTexStorage3DMultisampleOES|GL_APICALL void GL_APIENTRY glTexStorage3DMultisampleOES (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth, GLboolean fixedsamplelocations);|
+GL_OES_texture_view|glTextureViewOES|GL_APICALL void GL_APIENTRY glTextureViewOES (GLuint texture, GLenum target, GLuint origtexture, GLenum internalformat, GLuint minlevel, GLuint numlevels, GLuint minlayer, GLuint numlayers);|
+GL_OES_vertex_array_object|glBindVertexArrayOES|GL_APICALL void GL_APIENTRY glBindVertexArrayOES (GLuint array);|
+GL_OES_vertex_array_object|glDeleteVertexArraysOES|GL_APICALL void GL_APIENTRY glDeleteVertexArraysOES (GLsizei n, const GLuint *arrays);|
+GL_OES_vertex_array_object|glGenVertexArraysOES|GL_APICALL void GL_APIENTRY glGenVertexArraysOES (GLsizei n, GLuint *arrays);|
+GL_OES_vertex_array_object|glIsVertexArrayOES|GL_APICALL GLboolean GL_APIENTRY glIsVertexArrayOES (GLuint array);|
+GL_OES_viewport_array|glViewportArrayvOES|GL_APICALL void GL_APIENTRY glViewportArrayvOES (GLuint first, GLsizei count, const GLfloat *v);|
+GL_OES_viewport_array|glViewportIndexedfOES|GL_APICALL void GL_APIENTRY glViewportIndexedfOES (GLuint index, GLfloat x, GLfloat y, GLfloat w, GLfloat h);|
+GL_OES_viewport_array|glViewportIndexedfvOES|GL_APICALL void GL_APIENTRY glViewportIndexedfvOES (GLuint index, const GLfloat *v);|
+GL_OES_viewport_array|glScissorArrayvOES|GL_APICALL void GL_APIENTRY glScissorArrayvOES (GLuint first, GLsizei count, const GLint *v);|
+GL_OES_viewport_array|glScissorIndexedOES|GL_APICALL void GL_APIENTRY glScissorIndexedOES (GLuint index, GLint left, GLint bottom, GLsizei width, GLsizei height);|
+GL_OES_viewport_array|glScissorIndexedvOES|GL_APICALL void GL_APIENTRY glScissorIndexedvOES (GLuint index, const GLint *v);|
+GL_OES_viewport_array|glDepthRangeArrayfvOES|GL_APICALL void GL_APIENTRY glDepthRangeArrayfvOES (GLuint first, GLsizei count, const GLfloat *v);|
+GL_OES_viewport_array|glDepthRangeIndexedfOES|GL_APICALL void GL_APIENTRY glDepthRangeIndexedfOES (GLuint index, GLfloat n, GLfloat f);|
+GL_OES_viewport_array|glGetFloati_vOES|GL_APICALL void GL_APIENTRY glGetFloati_vOES (GLenum target, GLuint index, GLfloat *data);|
+GL_AMD_framebuffer_multisample_advanced|glRenderbufferStorageMultisampleAdvancedAMD|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisampleAdvancedAMD (GLenum target, GLsizei samples, GLsizei storageSamples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_AMD_framebuffer_multisample_advanced|glNamedRenderbufferStorageMultisampleAdvancedAMD|GL_APICALL void GL_APIENTRY glNamedRenderbufferStorageMultisampleAdvancedAMD (GLuint renderbuffer, GLsizei samples, GLsizei storageSamples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_AMD_performance_monitor|glGetPerfMonitorGroupsAMD|GL_APICALL void GL_APIENTRY glGetPerfMonitorGroupsAMD (GLint *numGroups, GLsizei groupsSize, GLuint *groups);|
+GL_AMD_performance_monitor|glGetPerfMonitorCountersAMD|GL_APICALL void GL_APIENTRY glGetPerfMonitorCountersAMD (GLuint group, GLint *numCounters, GLint *maxActiveCounters, GLsizei counterSize, GLuint *counters);|
+GL_AMD_performance_monitor|glGetPerfMonitorGroupStringAMD|GL_APICALL void GL_APIENTRY glGetPerfMonitorGroupStringAMD (GLuint group, GLsizei bufSize, GLsizei *length, GLchar *groupString);|
+GL_AMD_performance_monitor|glGetPerfMonitorCounterStringAMD|GL_APICALL void GL_APIENTRY glGetPerfMonitorCounterStringAMD (GLuint group, GLuint counter, GLsizei bufSize, GLsizei *length, GLchar *counterString);|
+GL_AMD_performance_monitor|glGetPerfMonitorCounterInfoAMD|GL_APICALL void GL_APIENTRY glGetPerfMonitorCounterInfoAMD (GLuint group, GLuint counter, GLenum pname, void *data);|
+GL_AMD_performance_monitor|glGenPerfMonitorsAMD|GL_APICALL void GL_APIENTRY glGenPerfMonitorsAMD (GLsizei n, GLuint *monitors);|
+GL_AMD_performance_monitor|glDeletePerfMonitorsAMD|GL_APICALL void GL_APIENTRY glDeletePerfMonitorsAMD (GLsizei n, GLuint *monitors);|
+GL_AMD_performance_monitor|glSelectPerfMonitorCountersAMD|GL_APICALL void GL_APIENTRY glSelectPerfMonitorCountersAMD (GLuint monitor, GLboolean enable, GLuint group, GLint numCounters, GLuint *counterList);|
+GL_AMD_performance_monitor|glBeginPerfMonitorAMD|GL_APICALL void GL_APIENTRY glBeginPerfMonitorAMD (GLuint monitor);|
+GL_AMD_performance_monitor|glEndPerfMonitorAMD|GL_APICALL void GL_APIENTRY glEndPerfMonitorAMD (GLuint monitor);|
+GL_AMD_performance_monitor|glGetPerfMonitorCounterDataAMD|GL_APICALL void GL_APIENTRY glGetPerfMonitorCounterDataAMD (GLuint monitor, GLenum pname, GLsizei dataSize, GLuint *data, GLint *bytesWritten);|
+GL_ANGLE_framebuffer_blit|glBlitFramebufferANGLE|GL_APICALL void GL_APIENTRY glBlitFramebufferANGLE (GLint srcX0, GLint srcY0, GLint srcX1, GLint srcY1, GLint dstX0, GLint dstY0, GLint dstX1, GLint dstY1, GLbitfield mask, GLenum filter);|
+GL_ANGLE_framebuffer_multisample|glRenderbufferStorageMultisampleANGLE|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisampleANGLE (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_ANGLE_instanced_arrays|glDrawArraysInstancedANGLE|GL_APICALL void GL_APIENTRY glDrawArraysInstancedANGLE (GLenum mode, GLint first, GLsizei count, GLsizei primcount);|
+GL_ANGLE_instanced_arrays|glDrawElementsInstancedANGLE|GL_APICALL void GL_APIENTRY glDrawElementsInstancedANGLE (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei primcount);|
+GL_ANGLE_instanced_arrays|glVertexAttribDivisorANGLE|GL_APICALL void GL_APIENTRY glVertexAttribDivisorANGLE (GLuint index, GLuint divisor);|
+GL_ANGLE_translated_shader_source|glGetTranslatedShaderSourceANGLE|GL_APICALL void GL_APIENTRY glGetTranslatedShaderSourceANGLE (GLuint shader, GLsizei bufSize, GLsizei *length, GLchar *source);|
+GL_APPLE_copy_texture_levels|glCopyTextureLevelsAPPLE|GL_APICALL void GL_APIENTRY glCopyTextureLevelsAPPLE (GLuint destinationTexture, GLuint sourceTexture, GLint sourceBaseLevel, GLsizei sourceLevelCount);|
+GL_APPLE_framebuffer_multisample|glRenderbufferStorageMultisampleAPPLE|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisampleAPPLE (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_APPLE_framebuffer_multisample|glResolveMultisampleFramebufferAPPLE|GL_APICALL void GL_APIENTRY glResolveMultisampleFramebufferAPPLE (void);|
+GL_APPLE_sync|glFenceSyncAPPLE|GL_APICALL GLsync GL_APIENTRY glFenceSyncAPPLE (GLenum condition, GLbitfield flags);|
+GL_APPLE_sync|glIsSyncAPPLE|GL_APICALL GLboolean GL_APIENTRY glIsSyncAPPLE (GLsync sync);|
+GL_APPLE_sync|glDeleteSyncAPPLE|GL_APICALL void GL_APIENTRY glDeleteSyncAPPLE (GLsync sync);|
+GL_APPLE_sync|glClientWaitSyncAPPLE|GL_APICALL GLenum GL_APIENTRY glClientWaitSyncAPPLE (GLsync sync, GLbitfield flags, GLuint64 timeout);|
+GL_APPLE_sync|glWaitSyncAPPLE|GL_APICALL void GL_APIENTRY glWaitSyncAPPLE (GLsync sync, GLbitfield flags, GLuint64 timeout);|
+GL_APPLE_sync|glGetInteger64vAPPLE|GL_APICALL void GL_APIENTRY glGetInteger64vAPPLE (GLenum pname, GLint64 *params);|
+GL_APPLE_sync|glGetSyncivAPPLE|GL_APICALL void GL_APIENTRY glGetSyncivAPPLE (GLsync sync, GLenum pname, GLsizei count, GLsizei *length, GLint *values);|
+GL_ARM_shader_core_properties|glMaxActiveShaderCoresARM|GL_APICALL void GL_APIENTRY glMaxActiveShaderCoresARM (GLuint count);|
+GL_EXT_EGL_image_storage|glEGLImageTargetTexStorageEXT|GL_APICALL void GL_APIENTRY glEGLImageTargetTexStorageEXT (GLenum target, GLeglImageOES image, const GLint* attrib_list);|
+GL_EXT_EGL_image_storage|glEGLImageTargetTextureStorageEXT|GL_APICALL void GL_APIENTRY glEGLImageTargetTextureStorageEXT (GLuint texture, GLeglImageOES image, const GLint* attrib_list);|
+GL_EXT_base_instance|glDrawArraysInstancedBaseInstanceEXT|GL_APICALL void GL_APIENTRY glDrawArraysInstancedBaseInstanceEXT (GLenum mode, GLint first, GLsizei count, GLsizei instancecount, GLuint baseinstance);|
+GL_EXT_base_instance|glDrawElementsInstancedBaseInstanceEXT|GL_APICALL void GL_APIENTRY glDrawElementsInstancedBaseInstanceEXT (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei instancecount, GLuint baseinstance);|
+GL_EXT_base_instance|glDrawElementsInstancedBaseVertexBaseInstanceEXT|GL_APICALL void GL_APIENTRY glDrawElementsInstancedBaseVertexBaseInstanceEXT (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei instancecount, GLint basevertex, GLuint baseinstance);|
+GL_EXT_blend_func_extended|glBindFragDataLocationIndexedEXT|GL_APICALL void GL_APIENTRY glBindFragDataLocationIndexedEXT (GLuint program, GLuint colorNumber, GLuint index, const GLchar *name);|
+GL_EXT_blend_func_extended|glBindFragDataLocationEXT|GL_APICALL void GL_APIENTRY glBindFragDataLocationEXT (GLuint program, GLuint color, const GLchar *name);|
+GL_EXT_blend_func_extended|glGetProgramResourceLocationIndexEXT|GL_APICALL GLint GL_APIENTRY glGetProgramResourceLocationIndexEXT (GLuint program, GLenum programInterface, const GLchar *name);|
+GL_EXT_blend_func_extended|glGetFragDataIndexEXT|GL_APICALL GLint GL_APIENTRY glGetFragDataIndexEXT (GLuint program, const GLchar *name);|
+GL_EXT_buffer_storage|glBufferStorageEXT|GL_APICALL void GL_APIENTRY glBufferStorageEXT (GLenum target, GLsizeiptr size, const void *data, GLbitfield flags);|
+GL_EXT_clear_texture|glClearTexImageEXT|GL_APICALL void GL_APIENTRY glClearTexImageEXT (GLuint texture, GLint level, GLenum format, GLenum type, const void *data);|
+GL_EXT_clear_texture|glClearTexSubImageEXT|GL_APICALL void GL_APIENTRY glClearTexSubImageEXT (GLuint texture, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLenum type, const void *data);|
+GL_EXT_clip_control|glClipControlEXT|GL_APICALL void GL_APIENTRY glClipControlEXT (GLenum origin, GLenum depth);|
+GL_EXT_copy_image|glCopyImageSubDataEXT|GL_APICALL void GL_APIENTRY glCopyImageSubDataEXT (GLuint srcName, GLenum srcTarget, GLint srcLevel, GLint srcX, GLint srcY, GLint srcZ, GLuint dstName, GLenum dstTarget, GLint dstLevel, GLint dstX, GLint dstY, GLint dstZ, GLsizei srcWidth, GLsizei srcHeight, GLsizei srcDepth);|
+GL_EXT_debug_label|glLabelObjectEXT|GL_APICALL void GL_APIENTRY glLabelObjectEXT (GLenum type, GLuint object, GLsizei length, const GLchar *label);|
+GL_EXT_debug_label|glGetObjectLabelEXT|GL_APICALL void GL_APIENTRY glGetObjectLabelEXT (GLenum type, GLuint object, GLsizei bufSize, GLsizei *length, GLchar *label);|
+GL_EXT_debug_marker|glInsertEventMarkerEXT|GL_APICALL void GL_APIENTRY glInsertEventMarkerEXT (GLsizei length, const GLchar *marker);|
+GL_EXT_debug_marker|glPushGroupMarkerEXT|GL_APICALL void GL_APIENTRY glPushGroupMarkerEXT (GLsizei length, const GLchar *marker);|
+GL_EXT_debug_marker|glPopGroupMarkerEXT|GL_APICALL void GL_APIENTRY glPopGroupMarkerEXT (void);|
+GL_EXT_discard_framebuffer|glDiscardFramebufferEXT|GL_APICALL void GL_APIENTRY glDiscardFramebufferEXT (GLenum target, GLsizei numAttachments, const GLenum *attachments);|
+GL_EXT_disjoint_timer_query|glGenQueriesEXT|GL_APICALL void GL_APIENTRY glGenQueriesEXT (GLsizei n, GLuint *ids);|
+GL_EXT_disjoint_timer_query|glDeleteQueriesEXT|GL_APICALL void GL_APIENTRY glDeleteQueriesEXT (GLsizei n, const GLuint *ids);|
+GL_EXT_disjoint_timer_query|glIsQueryEXT|GL_APICALL GLboolean GL_APIENTRY glIsQueryEXT (GLuint id);|
+GL_EXT_disjoint_timer_query|glBeginQueryEXT|GL_APICALL void GL_APIENTRY glBeginQueryEXT (GLenum target, GLuint id);|
+GL_EXT_disjoint_timer_query|glEndQueryEXT|GL_APICALL void GL_APIENTRY glEndQueryEXT (GLenum target);|
+GL_EXT_disjoint_timer_query|glQueryCounterEXT|GL_APICALL void GL_APIENTRY glQueryCounterEXT (GLuint id, GLenum target);|
+GL_EXT_disjoint_timer_query|glGetQueryivEXT|GL_APICALL void GL_APIENTRY glGetQueryivEXT (GLenum target, GLenum pname, GLint *params);|
+GL_EXT_disjoint_timer_query|glGetQueryObjectivEXT|GL_APICALL void GL_APIENTRY glGetQueryObjectivEXT (GLuint id, GLenum pname, GLint *params);|
+GL_EXT_disjoint_timer_query|glGetQueryObjectuivEXT|GL_APICALL void GL_APIENTRY glGetQueryObjectuivEXT (GLuint id, GLenum pname, GLuint *params);|
+GL_EXT_disjoint_timer_query|glGetQueryObjecti64vEXT|GL_APICALL void GL_APIENTRY glGetQueryObjecti64vEXT (GLuint id, GLenum pname, GLint64 *params);|
+GL_EXT_disjoint_timer_query|glGetQueryObjectui64vEXT|GL_APICALL void GL_APIENTRY glGetQueryObjectui64vEXT (GLuint id, GLenum pname, GLuint64 *params);|
+GL_EXT_disjoint_timer_query|glGetInteger64vEXT|GL_APICALL void GL_APIENTRY glGetInteger64vEXT (GLenum pname, GLint64 *data);|
+GL_EXT_draw_buffers|glDrawBuffersEXT|GL_APICALL void GL_APIENTRY glDrawBuffersEXT (GLsizei n, const GLenum *bufs);|
+GL_EXT_draw_buffers_indexed|glEnableiEXT|GL_APICALL void GL_APIENTRY glEnableiEXT (GLenum target, GLuint index);|
+GL_EXT_draw_buffers_indexed|glDisableiEXT|GL_APICALL void GL_APIENTRY glDisableiEXT (GLenum target, GLuint index);|
+GL_EXT_draw_buffers_indexed|glBlendEquationiEXT|GL_APICALL void GL_APIENTRY glBlendEquationiEXT (GLuint buf, GLenum mode);|
+GL_EXT_draw_buffers_indexed|glBlendEquationSeparateiEXT|GL_APICALL void GL_APIENTRY glBlendEquationSeparateiEXT (GLuint buf, GLenum modeRGB, GLenum modeAlpha);|
+GL_EXT_draw_buffers_indexed|glBlendFunciEXT|GL_APICALL void GL_APIENTRY glBlendFunciEXT (GLuint buf, GLenum src, GLenum dst);|
+GL_EXT_draw_buffers_indexed|glBlendFuncSeparateiEXT|GL_APICALL void GL_APIENTRY glBlendFuncSeparateiEXT (GLuint buf, GLenum srcRGB, GLenum dstRGB, GLenum srcAlpha, GLenum dstAlpha);|
+GL_EXT_draw_buffers_indexed|glColorMaskiEXT|GL_APICALL void GL_APIENTRY glColorMaskiEXT (GLuint index, GLboolean r, GLboolean g, GLboolean b, GLboolean a);|
+GL_EXT_draw_buffers_indexed|glIsEnablediEXT|GL_APICALL GLboolean GL_APIENTRY glIsEnablediEXT (GLenum target, GLuint index);|
+GL_EXT_draw_elements_base_vertex|glDrawElementsBaseVertexEXT|GL_APICALL void GL_APIENTRY glDrawElementsBaseVertexEXT (GLenum mode, GLsizei count, GLenum type, const void *indices, GLint basevertex);|
+GL_EXT_draw_elements_base_vertex|glDrawRangeElementsBaseVertexEXT|GL_APICALL void GL_APIENTRY glDrawRangeElementsBaseVertexEXT (GLenum mode, GLuint start, GLuint end, GLsizei count, GLenum type, const void *indices, GLint basevertex);|
+GL_EXT_draw_elements_base_vertex|glDrawElementsInstancedBaseVertexEXT|GL_APICALL void GL_APIENTRY glDrawElementsInstancedBaseVertexEXT (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei instancecount, GLint basevertex);|
+GL_EXT_draw_instanced|glDrawArraysInstancedEXT|GL_APICALL void GL_APIENTRY glDrawArraysInstancedEXT (GLenum mode, GLint start, GLsizei count, GLsizei primcount);|
+GL_EXT_draw_instanced|glDrawElementsInstancedEXT|GL_APICALL void GL_APIENTRY glDrawElementsInstancedEXT (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei primcount);|
+GL_EXT_draw_transform_feedback|glDrawTransformFeedbackEXT|GL_APICALL void GL_APIENTRY glDrawTransformFeedbackEXT (GLenum mode, GLuint id);|
+GL_EXT_draw_transform_feedback|glDrawTransformFeedbackInstancedEXT|GL_APICALL void GL_APIENTRY glDrawTransformFeedbackInstancedEXT (GLenum mode, GLuint id, GLsizei instancecount);|
+GL_EXT_external_buffer|glBufferStorageExternalEXT|GL_APICALL void GL_APIENTRY glBufferStorageExternalEXT (GLenum target, GLintptr offset, GLsizeiptr size, GLeglClientBufferEXT clientBuffer, GLbitfield flags);|
+GL_EXT_external_buffer|glNamedBufferStorageExternalEXT|GL_APICALL void GL_APIENTRY glNamedBufferStorageExternalEXT (GLuint buffer, GLintptr offset, GLsizeiptr size, GLeglClientBufferEXT clientBuffer, GLbitfield flags);|
+GL_EXT_fragment_shading_rate|glGetFragmentShadingRatesEXT|GL_APICALL void GL_APIENTRY glGetFragmentShadingRatesEXT (GLsizei samples, GLsizei maxCount, GLsizei *count, GLenum *shadingRates);|
+GL_EXT_fragment_shading_rate|glShadingRateEXT|GL_APICALL void GL_APIENTRY glShadingRateEXT (GLenum rate);|
+GL_EXT_fragment_shading_rate|glShadingRateCombinerOpsEXT|GL_APICALL void GL_APIENTRY glShadingRateCombinerOpsEXT (GLenum combinerOp0, GLenum combinerOp1);|
+GL_EXT_fragment_shading_rate|glFramebufferShadingRateEXT|GL_APICALL void GL_APIENTRY glFramebufferShadingRateEXT (GLenum target, GLenum attachment, GLuint texture, GLint baseLayer, GLsizei numLayers, GLsizei texelWidth, GLsizei texelHeight);|
+GL_EXT_framebuffer_blit_layers|glBlitFramebufferLayersEXT|GL_APICALL void GL_APIENTRY glBlitFramebufferLayersEXT (GLint srcX0, GLint srcY0, GLint srcX1, GLint srcY1, GLint dstX0, GLint dstY0, GLint dstX1, GLint dstY1, GLbitfield mask, GLenum filter);|
+GL_EXT_framebuffer_blit_layers|glBlitFramebufferLayerEXT|GL_APICALL void GL_APIENTRY glBlitFramebufferLayerEXT (GLint srcX0, GLint srcY0, GLint srcX1, GLint srcY1, GLint srcLayer, GLint dstX0, GLint dstY0, GLint dstX1, GLint dstY1, GLint dstLayer, GLbitfield mask, GLenum filter);|
+GL_EXT_geometry_shader|glFramebufferTextureEXT|GL_APICALL void GL_APIENTRY glFramebufferTextureEXT (GLenum target, GLenum attachment, GLuint texture, GLint level);|
+GL_EXT_instanced_arrays|glVertexAttribDivisorEXT|GL_APICALL void GL_APIENTRY glVertexAttribDivisorEXT (GLuint index, GLuint divisor);|
+GL_EXT_map_buffer_range|glMapBufferRangeEXT|GL_APICALL void *GL_APIENTRY glMapBufferRangeEXT (GLenum target, GLintptr offset, GLsizeiptr length, GLbitfield access);|
+GL_EXT_map_buffer_range|glFlushMappedBufferRangeEXT|GL_APICALL void GL_APIENTRY glFlushMappedBufferRangeEXT (GLenum target, GLintptr offset, GLsizeiptr length);|
+GL_EXT_memory_object|glGetUnsignedBytevEXT|GL_APICALL void GL_APIENTRY glGetUnsignedBytevEXT (GLenum pname, GLubyte *data);|
+GL_EXT_memory_object|glGetUnsignedBytei_vEXT|GL_APICALL void GL_APIENTRY glGetUnsignedBytei_vEXT (GLenum target, GLuint index, GLubyte *data);|
+GL_EXT_memory_object|glDeleteMemoryObjectsEXT|GL_APICALL void GL_APIENTRY glDeleteMemoryObjectsEXT (GLsizei n, const GLuint *memoryObjects);|
+GL_EXT_memory_object|glIsMemoryObjectEXT|GL_APICALL GLboolean GL_APIENTRY glIsMemoryObjectEXT (GLuint memoryObject);|
+GL_EXT_memory_object|glCreateMemoryObjectsEXT|GL_APICALL void GL_APIENTRY glCreateMemoryObjectsEXT (GLsizei n, GLuint *memoryObjects);|
+GL_EXT_memory_object|glMemoryObjectParameterivEXT|GL_APICALL void GL_APIENTRY glMemoryObjectParameterivEXT (GLuint memoryObject, GLenum pname, const GLint *params);|
+GL_EXT_memory_object|glGetMemoryObjectParameterivEXT|GL_APICALL void GL_APIENTRY glGetMemoryObjectParameterivEXT (GLuint memoryObject, GLenum pname, GLint *params);|
+GL_EXT_memory_object|glTexStorageMem2DEXT|GL_APICALL void GL_APIENTRY glTexStorageMem2DEXT (GLenum target, GLsizei levels, GLenum internalFormat, GLsizei width, GLsizei height, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTexStorageMem2DMultisampleEXT|GL_APICALL void GL_APIENTRY glTexStorageMem2DMultisampleEXT (GLenum target, GLsizei samples, GLenum internalFormat, GLsizei width, GLsizei height, GLboolean fixedSampleLocations, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTexStorageMem3DEXT|GL_APICALL void GL_APIENTRY glTexStorageMem3DEXT (GLenum target, GLsizei levels, GLenum internalFormat, GLsizei width, GLsizei height, GLsizei depth, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTexStorageMem3DMultisampleEXT|GL_APICALL void GL_APIENTRY glTexStorageMem3DMultisampleEXT (GLenum target, GLsizei samples, GLenum internalFormat, GLsizei width, GLsizei height, GLsizei depth, GLboolean fixedSampleLocations, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glBufferStorageMemEXT|GL_APICALL void GL_APIENTRY glBufferStorageMemEXT (GLenum target, GLsizeiptr size, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTextureStorageMem2DEXT|GL_APICALL void GL_APIENTRY glTextureStorageMem2DEXT (GLuint texture, GLsizei levels, GLenum internalFormat, GLsizei width, GLsizei height, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTextureStorageMem2DMultisampleEXT|GL_APICALL void GL_APIENTRY glTextureStorageMem2DMultisampleEXT (GLuint texture, GLsizei samples, GLenum internalFormat, GLsizei width, GLsizei height, GLboolean fixedSampleLocations, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTextureStorageMem3DEXT|GL_APICALL void GL_APIENTRY glTextureStorageMem3DEXT (GLuint texture, GLsizei levels, GLenum internalFormat, GLsizei width, GLsizei height, GLsizei depth, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glTextureStorageMem3DMultisampleEXT|GL_APICALL void GL_APIENTRY glTextureStorageMem3DMultisampleEXT (GLuint texture, GLsizei samples, GLenum internalFormat, GLsizei width, GLsizei height, GLsizei depth, GLboolean fixedSampleLocations, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object|glNamedBufferStorageMemEXT|GL_APICALL void GL_APIENTRY glNamedBufferStorageMemEXT (GLuint buffer, GLsizeiptr size, GLuint memory, GLuint64 offset);|
+GL_EXT_memory_object_fd|glImportMemoryFdEXT|GL_APICALL void GL_APIENTRY glImportMemoryFdEXT (GLuint memory, GLuint64 size, GLenum handleType, GLint fd);|
+GL_EXT_memory_object_win32|glImportMemoryWin32HandleEXT|GL_APICALL void GL_APIENTRY glImportMemoryWin32HandleEXT (GLuint memory, GLuint64 size, GLenum handleType, void *handle);|
+GL_EXT_memory_object_win32|glImportMemoryWin32NameEXT|GL_APICALL void GL_APIENTRY glImportMemoryWin32NameEXT (GLuint memory, GLuint64 size, GLenum handleType, const void *name);|
+GL_EXT_multi_draw_arrays|glMultiDrawArraysEXT|GL_APICALL void GL_APIENTRY glMultiDrawArraysEXT (GLenum mode, const GLint *first, const GLsizei *count, GLsizei primcount);|
+GL_EXT_multi_draw_arrays|glMultiDrawElementsEXT|GL_APICALL void GL_APIENTRY glMultiDrawElementsEXT (GLenum mode, const GLsizei *count, GLenum type, const void *const*indices, GLsizei primcount);|
+GL_EXT_multi_draw_indirect|glMultiDrawArraysIndirectEXT|GL_APICALL void GL_APIENTRY glMultiDrawArraysIndirectEXT (GLenum mode, const void *indirect, GLsizei drawcount, GLsizei stride);|
+GL_EXT_multi_draw_indirect|glMultiDrawElementsIndirectEXT|GL_APICALL void GL_APIENTRY glMultiDrawElementsIndirectEXT (GLenum mode, GLenum type, const void *indirect, GLsizei drawcount, GLsizei stride);|
+GL_EXT_multisampled_render_to_texture|glRenderbufferStorageMultisampleEXT|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisampleEXT (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_EXT_multisampled_render_to_texture|glFramebufferTexture2DMultisampleEXT|GL_APICALL void GL_APIENTRY glFramebufferTexture2DMultisampleEXT (GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level, GLsizei samples);|
+GL_EXT_multiview_draw_buffers|glReadBufferIndexedEXT|GL_APICALL void GL_APIENTRY glReadBufferIndexedEXT (GLenum src, GLint index);|
+GL_EXT_multiview_draw_buffers|glDrawBuffersIndexedEXT|GL_APICALL void GL_APIENTRY glDrawBuffersIndexedEXT (GLint n, const GLenum *location, const GLint *indices);|
+GL_EXT_multiview_draw_buffers|glGetIntegeri_vEXT|GL_APICALL void GL_APIENTRY glGetIntegeri_vEXT (GLenum target, GLuint index, GLint *data);|
+GL_EXT_polygon_offset_clamp|glPolygonOffsetClampEXT|GL_APICALL void GL_APIENTRY glPolygonOffsetClampEXT (GLfloat factor, GLfloat units, GLfloat clamp);|
+GL_EXT_primitive_bounding_box|glPrimitiveBoundingBoxEXT|GL_APICALL void GL_APIENTRY glPrimitiveBoundingBoxEXT (GLfloat minX, GLfloat minY, GLfloat minZ, GLfloat minW, GLfloat maxX, GLfloat maxY, GLfloat maxZ, GLfloat maxW);|
+GL_EXT_raster_multisample|glRasterSamplesEXT|GL_APICALL void GL_APIENTRY glRasterSamplesEXT (GLuint samples, GLboolean fixedsamplelocations);|
+GL_EXT_robustness|glGetGraphicsResetStatusEXT|GL_APICALL GLenum GL_APIENTRY glGetGraphicsResetStatusEXT (void);|
+GL_EXT_robustness|glReadnPixelsEXT|GL_APICALL void GL_APIENTRY glReadnPixelsEXT (GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLsizei bufSize, void *data);|
+GL_EXT_robustness|glGetnUniformfvEXT|GL_APICALL void GL_APIENTRY glGetnUniformfvEXT (GLuint program, GLint location, GLsizei bufSize, GLfloat *params);|
+GL_EXT_robustness|glGetnUniformivEXT|GL_APICALL void GL_APIENTRY glGetnUniformivEXT (GLuint program, GLint location, GLsizei bufSize, GLint *params);|
+GL_EXT_semaphore|glGenSemaphoresEXT|GL_APICALL void GL_APIENTRY glGenSemaphoresEXT (GLsizei n, GLuint *semaphores);|
+GL_EXT_semaphore|glDeleteSemaphoresEXT|GL_APICALL void GL_APIENTRY glDeleteSemaphoresEXT (GLsizei n, const GLuint *semaphores);|
+GL_EXT_semaphore|glIsSemaphoreEXT|GL_APICALL GLboolean GL_APIENTRY glIsSemaphoreEXT (GLuint semaphore);|
+GL_EXT_semaphore|glSemaphoreParameterui64vEXT|GL_APICALL void GL_APIENTRY glSemaphoreParameterui64vEXT (GLuint semaphore, GLenum pname, const GLuint64 *params);|
+GL_EXT_semaphore|glGetSemaphoreParameterui64vEXT|GL_APICALL void GL_APIENTRY glGetSemaphoreParameterui64vEXT (GLuint semaphore, GLenum pname, GLuint64 *params);|
+GL_EXT_semaphore|glWaitSemaphoreEXT|GL_APICALL void GL_APIENTRY glWaitSemaphoreEXT (GLuint semaphore, GLuint numBufferBarriers, const GLuint *buffers, GLuint numTextureBarriers, const GLuint *textures, const GLenum *srcLayouts);|
+GL_EXT_semaphore|glSignalSemaphoreEXT|GL_APICALL void GL_APIENTRY glSignalSemaphoreEXT (GLuint semaphore, GLuint numBufferBarriers, const GLuint *buffers, GLuint numTextureBarriers, const GLuint *textures, const GLenum *dstLayouts);|
+GL_EXT_semaphore_fd|glImportSemaphoreFdEXT|GL_APICALL void GL_APIENTRY glImportSemaphoreFdEXT (GLuint semaphore, GLenum handleType, GLint fd);|
+GL_EXT_semaphore_win32|glImportSemaphoreWin32HandleEXT|GL_APICALL void GL_APIENTRY glImportSemaphoreWin32HandleEXT (GLuint semaphore, GLenum handleType, void *handle);|
+GL_EXT_semaphore_win32|glImportSemaphoreWin32NameEXT|GL_APICALL void GL_APIENTRY glImportSemaphoreWin32NameEXT (GLuint semaphore, GLenum handleType, const void *name);|
+GL_EXT_separate_shader_objects|glActiveShaderProgramEXT|GL_APICALL void GL_APIENTRY glActiveShaderProgramEXT (GLuint pipeline, GLuint program);|
+GL_EXT_separate_shader_objects|glBindProgramPipelineEXT|GL_APICALL void GL_APIENTRY glBindProgramPipelineEXT (GLuint pipeline);|
+GL_EXT_separate_shader_objects|glCreateShaderProgramvEXT|GL_APICALL GLuint GL_APIENTRY glCreateShaderProgramvEXT (GLenum type, GLsizei count, const GLchar *const*strings);|
+GL_EXT_separate_shader_objects|glDeleteProgramPipelinesEXT|GL_APICALL void GL_APIENTRY glDeleteProgramPipelinesEXT (GLsizei n, const GLuint *pipelines);|
+GL_EXT_separate_shader_objects|glGenProgramPipelinesEXT|GL_APICALL void GL_APIENTRY glGenProgramPipelinesEXT (GLsizei n, GLuint *pipelines);|
+GL_EXT_separate_shader_objects|glGetProgramPipelineInfoLogEXT|GL_APICALL void GL_APIENTRY glGetProgramPipelineInfoLogEXT (GLuint pipeline, GLsizei bufSize, GLsizei *length, GLchar *infoLog);|
+GL_EXT_separate_shader_objects|glGetProgramPipelineivEXT|GL_APICALL void GL_APIENTRY glGetProgramPipelineivEXT (GLuint pipeline, GLenum pname, GLint *params);|
+GL_EXT_separate_shader_objects|glIsProgramPipelineEXT|GL_APICALL GLboolean GL_APIENTRY glIsProgramPipelineEXT (GLuint pipeline);|
+GL_EXT_separate_shader_objects|glProgramParameteriEXT|GL_APICALL void GL_APIENTRY glProgramParameteriEXT (GLuint program, GLenum pname, GLint value);|
+GL_EXT_separate_shader_objects|glProgramUniform1fEXT|GL_APICALL void GL_APIENTRY glProgramUniform1fEXT (GLuint program, GLint location, GLfloat v0);|
+GL_EXT_separate_shader_objects|glProgramUniform1fvEXT|GL_APICALL void GL_APIENTRY glProgramUniform1fvEXT (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniform1iEXT|GL_APICALL void GL_APIENTRY glProgramUniform1iEXT (GLuint program, GLint location, GLint v0);|
+GL_EXT_separate_shader_objects|glProgramUniform1ivEXT|GL_APICALL void GL_APIENTRY glProgramUniform1ivEXT (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_EXT_separate_shader_objects|glProgramUniform2fEXT|GL_APICALL void GL_APIENTRY glProgramUniform2fEXT (GLuint program, GLint location, GLfloat v0, GLfloat v1);|
+GL_EXT_separate_shader_objects|glProgramUniform2fvEXT|GL_APICALL void GL_APIENTRY glProgramUniform2fvEXT (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniform2iEXT|GL_APICALL void GL_APIENTRY glProgramUniform2iEXT (GLuint program, GLint location, GLint v0, GLint v1);|
+GL_EXT_separate_shader_objects|glProgramUniform2ivEXT|GL_APICALL void GL_APIENTRY glProgramUniform2ivEXT (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_EXT_separate_shader_objects|glProgramUniform3fEXT|GL_APICALL void GL_APIENTRY glProgramUniform3fEXT (GLuint program, GLint location, GLfloat v0, GLfloat v1, GLfloat v2);|
+GL_EXT_separate_shader_objects|glProgramUniform3fvEXT|GL_APICALL void GL_APIENTRY glProgramUniform3fvEXT (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniform3iEXT|GL_APICALL void GL_APIENTRY glProgramUniform3iEXT (GLuint program, GLint location, GLint v0, GLint v1, GLint v2);|
+GL_EXT_separate_shader_objects|glProgramUniform3ivEXT|GL_APICALL void GL_APIENTRY glProgramUniform3ivEXT (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_EXT_separate_shader_objects|glProgramUniform4fEXT|GL_APICALL void GL_APIENTRY glProgramUniform4fEXT (GLuint program, GLint location, GLfloat v0, GLfloat v1, GLfloat v2, GLfloat v3);|
+GL_EXT_separate_shader_objects|glProgramUniform4fvEXT|GL_APICALL void GL_APIENTRY glProgramUniform4fvEXT (GLuint program, GLint location, GLsizei count, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniform4iEXT|GL_APICALL void GL_APIENTRY glProgramUniform4iEXT (GLuint program, GLint location, GLint v0, GLint v1, GLint v2, GLint v3);|
+GL_EXT_separate_shader_objects|glProgramUniform4ivEXT|GL_APICALL void GL_APIENTRY glProgramUniform4ivEXT (GLuint program, GLint location, GLsizei count, const GLint *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix2fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix2fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix3fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix3fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix4fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix4fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glUseProgramStagesEXT|GL_APICALL void GL_APIENTRY glUseProgramStagesEXT (GLuint pipeline, GLbitfield stages, GLuint program);|
+GL_EXT_separate_shader_objects|glValidateProgramPipelineEXT|GL_APICALL void GL_APIENTRY glValidateProgramPipelineEXT (GLuint pipeline);|
+GL_EXT_separate_shader_objects|glProgramUniform1uiEXT|GL_APICALL void GL_APIENTRY glProgramUniform1uiEXT (GLuint program, GLint location, GLuint v0);|
+GL_EXT_separate_shader_objects|glProgramUniform2uiEXT|GL_APICALL void GL_APIENTRY glProgramUniform2uiEXT (GLuint program, GLint location, GLuint v0, GLuint v1);|
+GL_EXT_separate_shader_objects|glProgramUniform3uiEXT|GL_APICALL void GL_APIENTRY glProgramUniform3uiEXT (GLuint program, GLint location, GLuint v0, GLuint v1, GLuint v2);|
+GL_EXT_separate_shader_objects|glProgramUniform4uiEXT|GL_APICALL void GL_APIENTRY glProgramUniform4uiEXT (GLuint program, GLint location, GLuint v0, GLuint v1, GLuint v2, GLuint v3);|
+GL_EXT_separate_shader_objects|glProgramUniform1uivEXT|GL_APICALL void GL_APIENTRY glProgramUniform1uivEXT (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_EXT_separate_shader_objects|glProgramUniform2uivEXT|GL_APICALL void GL_APIENTRY glProgramUniform2uivEXT (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_EXT_separate_shader_objects|glProgramUniform3uivEXT|GL_APICALL void GL_APIENTRY glProgramUniform3uivEXT (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_EXT_separate_shader_objects|glProgramUniform4uivEXT|GL_APICALL void GL_APIENTRY glProgramUniform4uivEXT (GLuint program, GLint location, GLsizei count, const GLuint *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix2x3fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix2x3fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix3x2fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix3x2fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix2x4fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix2x4fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix4x2fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix4x2fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix3x4fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix3x4fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_separate_shader_objects|glProgramUniformMatrix4x3fvEXT|GL_APICALL void GL_APIENTRY glProgramUniformMatrix4x3fvEXT (GLuint program, GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_EXT_shader_framebuffer_fetch_non_coherent|glFramebufferFetchBarrierEXT|GL_APICALL void GL_APIENTRY glFramebufferFetchBarrierEXT (void);|
+GL_EXT_shader_pixel_local_storage2|glFramebufferPixelLocalStorageSizeEXT|GL_APICALL void GL_APIENTRY glFramebufferPixelLocalStorageSizeEXT (GLuint target, GLsizei size);|
+GL_EXT_shader_pixel_local_storage2|glGetFramebufferPixelLocalStorageSizeEXT|GL_APICALL GLsizei GL_APIENTRY glGetFramebufferPixelLocalStorageSizeEXT (GLuint target);|
+GL_EXT_shader_pixel_local_storage2|glClearPixelLocalStorageuiEXT|GL_APICALL void GL_APIENTRY glClearPixelLocalStorageuiEXT (GLsizei offset, GLsizei n, const GLuint *values);|
+GL_EXT_sparse_texture|glTexPageCommitmentEXT|GL_APICALL void GL_APIENTRY glTexPageCommitmentEXT (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLboolean commit);|
+GL_EXT_tessellation_shader|glPatchParameteriEXT|GL_APICALL void GL_APIENTRY glPatchParameteriEXT (GLenum pname, GLint value);|
+GL_EXT_texture_border_clamp|glTexParameterIivEXT|GL_APICALL void GL_APIENTRY glTexParameterIivEXT (GLenum target, GLenum pname, const GLint *params);|
+GL_EXT_texture_border_clamp|glTexParameterIuivEXT|GL_APICALL void GL_APIENTRY glTexParameterIuivEXT (GLenum target, GLenum pname, const GLuint *params);|
+GL_EXT_texture_border_clamp|glGetTexParameterIivEXT|GL_APICALL void GL_APIENTRY glGetTexParameterIivEXT (GLenum target, GLenum pname, GLint *params);|
+GL_EXT_texture_border_clamp|glGetTexParameterIuivEXT|GL_APICALL void GL_APIENTRY glGetTexParameterIuivEXT (GLenum target, GLenum pname, GLuint *params);|
+GL_EXT_texture_border_clamp|glSamplerParameterIivEXT|GL_APICALL void GL_APIENTRY glSamplerParameterIivEXT (GLuint sampler, GLenum pname, const GLint *param);|
+GL_EXT_texture_border_clamp|glSamplerParameterIuivEXT|GL_APICALL void GL_APIENTRY glSamplerParameterIuivEXT (GLuint sampler, GLenum pname, const GLuint *param);|
+GL_EXT_texture_border_clamp|glGetSamplerParameterIivEXT|GL_APICALL void GL_APIENTRY glGetSamplerParameterIivEXT (GLuint sampler, GLenum pname, GLint *params);|
+GL_EXT_texture_border_clamp|glGetSamplerParameterIuivEXT|GL_APICALL void GL_APIENTRY glGetSamplerParameterIuivEXT (GLuint sampler, GLenum pname, GLuint *params);|
+GL_EXT_texture_buffer|glTexBufferEXT|GL_APICALL void GL_APIENTRY glTexBufferEXT (GLenum target, GLenum internalformat, GLuint buffer);|
+GL_EXT_texture_buffer|glTexBufferRangeEXT|GL_APICALL void GL_APIENTRY glTexBufferRangeEXT (GLenum target, GLenum internalformat, GLuint buffer, GLintptr offset, GLsizeiptr size);|
+GL_EXT_texture_storage|glTexStorage1DEXT|GL_APICALL void GL_APIENTRY glTexStorage1DEXT (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width);|
+GL_EXT_texture_storage|glTexStorage2DEXT|GL_APICALL void GL_APIENTRY glTexStorage2DEXT (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_EXT_texture_storage|glTexStorage3DEXT|GL_APICALL void GL_APIENTRY glTexStorage3DEXT (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth);|
+GL_EXT_texture_storage|glTextureStorage1DEXT|GL_APICALL void GL_APIENTRY glTextureStorage1DEXT (GLuint texture, GLenum target, GLsizei levels, GLenum internalformat, GLsizei width);|
+GL_EXT_texture_storage|glTextureStorage2DEXT|GL_APICALL void GL_APIENTRY glTextureStorage2DEXT (GLuint texture, GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_EXT_texture_storage|glTextureStorage3DEXT|GL_APICALL void GL_APIENTRY glTextureStorage3DEXT (GLuint texture, GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth);|
+GL_EXT_texture_storage_compression|glTexStorageAttribs2DEXT|GL_APICALL void GL_APIENTRY glTexStorageAttribs2DEXT (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height, const GLint* attrib_list);|
+GL_EXT_texture_storage_compression|glTexStorageAttribs3DEXT|GL_APICALL void GL_APIENTRY glTexStorageAttribs3DEXT (GLenum target, GLsizei levels, GLenum internalformat, GLsizei width, GLsizei height, GLsizei depth, const GLint* attrib_list);|
+GL_EXT_texture_view|glTextureViewEXT|GL_APICALL void GL_APIENTRY glTextureViewEXT (GLuint texture, GLenum target, GLuint origtexture, GLenum internalformat, GLuint minlevel, GLuint numlevels, GLuint minlayer, GLuint numlayers);|
+GL_EXT_win32_keyed_mutex|glAcquireKeyedMutexWin32EXT|GL_APICALL GLboolean GL_APIENTRY glAcquireKeyedMutexWin32EXT (GLuint memory, GLuint64 key, GLuint timeout);|
+GL_EXT_win32_keyed_mutex|glReleaseKeyedMutexWin32EXT|GL_APICALL GLboolean GL_APIENTRY glReleaseKeyedMutexWin32EXT (GLuint memory, GLuint64 key);|
+GL_EXT_window_rectangles|glWindowRectanglesEXT|GL_APICALL void GL_APIENTRY glWindowRectanglesEXT (GLenum mode, GLsizei count, const GLint *box);|
+GL_IMG_bindless_texture|glGetTextureHandleIMG|GL_APICALL GLuint64 GL_APIENTRY glGetTextureHandleIMG (GLuint texture);|
+GL_IMG_bindless_texture|glGetTextureSamplerHandleIMG|GL_APICALL GLuint64 GL_APIENTRY glGetTextureSamplerHandleIMG (GLuint texture, GLuint sampler);|
+GL_IMG_bindless_texture|glUniformHandleui64IMG|GL_APICALL void GL_APIENTRY glUniformHandleui64IMG (GLint location, GLuint64 value);|
+GL_IMG_bindless_texture|glUniformHandleui64vIMG|GL_APICALL void GL_APIENTRY glUniformHandleui64vIMG (GLint location, GLsizei count, const GLuint64 *value);|
+GL_IMG_bindless_texture|glProgramUniformHandleui64IMG|GL_APICALL void GL_APIENTRY glProgramUniformHandleui64IMG (GLuint program, GLint location, GLuint64 value);|
+GL_IMG_bindless_texture|glProgramUniformHandleui64vIMG|GL_APICALL void GL_APIENTRY glProgramUniformHandleui64vIMG (GLuint program, GLint location, GLsizei count, const GLuint64 *values);|
+GL_IMG_framebuffer_downsample|glFramebufferTexture2DDownsampleIMG|GL_APICALL void GL_APIENTRY glFramebufferTexture2DDownsampleIMG (GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level, GLint xscale, GLint yscale);|
+GL_IMG_framebuffer_downsample|glFramebufferTextureLayerDownsampleIMG|GL_APICALL void GL_APIENTRY glFramebufferTextureLayerDownsampleIMG (GLenum target, GLenum attachment, GLuint texture, GLint level, GLint layer, GLint xscale, GLint yscale);|
+GL_IMG_multisampled_render_to_texture|glRenderbufferStorageMultisampleIMG|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisampleIMG (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_IMG_multisampled_render_to_texture|glFramebufferTexture2DMultisampleIMG|GL_APICALL void GL_APIENTRY glFramebufferTexture2DMultisampleIMG (GLenum target, GLenum attachment, GLenum textarget, GLuint texture, GLint level, GLsizei samples);|
+GL_INTEL_framebuffer_CMAA|glApplyFramebufferAttachmentCMAAINTEL|GL_APICALL void GL_APIENTRY glApplyFramebufferAttachmentCMAAINTEL (void);|
+GL_INTEL_performance_query|glBeginPerfQueryINTEL|GL_APICALL void GL_APIENTRY glBeginPerfQueryINTEL (GLuint queryHandle);|
+GL_INTEL_performance_query|glCreatePerfQueryINTEL|GL_APICALL void GL_APIENTRY glCreatePerfQueryINTEL (GLuint queryId, GLuint *queryHandle);|
+GL_INTEL_performance_query|glDeletePerfQueryINTEL|GL_APICALL void GL_APIENTRY glDeletePerfQueryINTEL (GLuint queryHandle);|
+GL_INTEL_performance_query|glEndPerfQueryINTEL|GL_APICALL void GL_APIENTRY glEndPerfQueryINTEL (GLuint queryHandle);|
+GL_INTEL_performance_query|glGetFirstPerfQueryIdINTEL|GL_APICALL void GL_APIENTRY glGetFirstPerfQueryIdINTEL (GLuint *queryId);|
+GL_INTEL_performance_query|glGetNextPerfQueryIdINTEL|GL_APICALL void GL_APIENTRY glGetNextPerfQueryIdINTEL (GLuint queryId, GLuint *nextQueryId);|
+GL_INTEL_performance_query|glGetPerfCounterInfoINTEL|GL_APICALL void GL_APIENTRY glGetPerfCounterInfoINTEL (GLuint queryId, GLuint counterId, GLuint counterNameLength, GLchar *counterName, GLuint counterDescLength, GLchar *counterDesc, GLuint *counterOffset, GLuint *counterDataSize, GLuint *counterTypeEnum, GLuint *counterDataTypeEnum, GLuint64 *rawCounterMaxValue);|
+GL_INTEL_performance_query|glGetPerfQueryDataINTEL|GL_APICALL void GL_APIENTRY glGetPerfQueryDataINTEL (GLuint queryHandle, GLuint flags, GLsizei dataSize, void *data, GLuint *bytesWritten);|
+GL_INTEL_performance_query|glGetPerfQueryIdByNameINTEL|GL_APICALL void GL_APIENTRY glGetPerfQueryIdByNameINTEL (GLchar *queryName, GLuint *queryId);|
+GL_INTEL_performance_query|glGetPerfQueryInfoINTEL|GL_APICALL void GL_APIENTRY glGetPerfQueryInfoINTEL (GLuint queryId, GLuint queryNameLength, GLchar *queryName, GLuint *dataSize, GLuint *noCounters, GLuint *noInstances, GLuint *capsMask);|
+GL_MESA_framebuffer_flip_y|glFramebufferParameteriMESA|GL_APICALL void GL_APIENTRY glFramebufferParameteriMESA (GLenum target, GLenum pname, GLint param);|
+GL_MESA_framebuffer_flip_y|glGetFramebufferParameterivMESA|GL_APICALL void GL_APIENTRY glGetFramebufferParameterivMESA (GLenum target, GLenum pname, GLint *params);|
+GL_MESA_sampler_objects|glGenSamplers|GL_APICALL void GL_APIENTRY glGenSamplers (GLsizei count, GLuint *samplers);|
+GL_MESA_sampler_objects|glDeleteSamplers|GL_APICALL void GL_APIENTRY glDeleteSamplers (GLsizei count, const GLuint *samplers);|
+GL_MESA_sampler_objects|glIsSampler|GL_APICALL GLboolean GL_APIENTRY glIsSampler (GLuint sampler);|
+GL_MESA_sampler_objects|glBindSampler|GL_APICALL void GL_APIENTRY glBindSampler (GLuint unit, GLuint sampler);|
+GL_MESA_sampler_objects|glSamplerParameteri|GL_APICALL void GL_APIENTRY glSamplerParameteri (GLuint sampler, GLenum pname, GLint param);|
+GL_MESA_sampler_objects|glSamplerParameteriv|GL_APICALL void GL_APIENTRY glSamplerParameteriv (GLuint sampler, GLenum pname, const GLint *param);|
+GL_MESA_sampler_objects|glSamplerParameterf|GL_APICALL void GL_APIENTRY glSamplerParameterf (GLuint sampler, GLenum pname, GLfloat param);|
+GL_MESA_sampler_objects|glSamplerParameterfv|GL_APICALL void GL_APIENTRY glSamplerParameterfv (GLuint sampler, GLenum pname, const GLfloat *param);|
+GL_MESA_sampler_objects|glGetSamplerParameteriv|GL_APICALL void GL_APIENTRY glGetSamplerParameteriv (GLuint sampler, GLenum pname, GLint *params);|
+GL_MESA_sampler_objects|glGetSamplerParameterfv|GL_APICALL void GL_APIENTRY glGetSamplerParameterfv (GLuint sampler, GLenum pname, GLfloat *params);|
+GL_NV_bindless_texture|glGetTextureHandleNV|GL_APICALL GLuint64 GL_APIENTRY glGetTextureHandleNV (GLuint texture);|
+GL_NV_bindless_texture|glGetTextureSamplerHandleNV|GL_APICALL GLuint64 GL_APIENTRY glGetTextureSamplerHandleNV (GLuint texture, GLuint sampler);|
+GL_NV_bindless_texture|glMakeTextureHandleResidentNV|GL_APICALL void GL_APIENTRY glMakeTextureHandleResidentNV (GLuint64 handle);|
+GL_NV_bindless_texture|glMakeTextureHandleNonResidentNV|GL_APICALL void GL_APIENTRY glMakeTextureHandleNonResidentNV (GLuint64 handle);|
+GL_NV_bindless_texture|glGetImageHandleNV|GL_APICALL GLuint64 GL_APIENTRY glGetImageHandleNV (GLuint texture, GLint level, GLboolean layered, GLint layer, GLenum format);|
+GL_NV_bindless_texture|glMakeImageHandleResidentNV|GL_APICALL void GL_APIENTRY glMakeImageHandleResidentNV (GLuint64 handle, GLenum access);|
+GL_NV_bindless_texture|glMakeImageHandleNonResidentNV|GL_APICALL void GL_APIENTRY glMakeImageHandleNonResidentNV (GLuint64 handle);|
+GL_NV_bindless_texture|glUniformHandleui64NV|GL_APICALL void GL_APIENTRY glUniformHandleui64NV (GLint location, GLuint64 value);|
+GL_NV_bindless_texture|glUniformHandleui64vNV|GL_APICALL void GL_APIENTRY glUniformHandleui64vNV (GLint location, GLsizei count, const GLuint64 *value);|
+GL_NV_bindless_texture|glProgramUniformHandleui64NV|GL_APICALL void GL_APIENTRY glProgramUniformHandleui64NV (GLuint program, GLint location, GLuint64 value);|
+GL_NV_bindless_texture|glProgramUniformHandleui64vNV|GL_APICALL void GL_APIENTRY glProgramUniformHandleui64vNV (GLuint program, GLint location, GLsizei count, const GLuint64 *values);|
+GL_NV_bindless_texture|glIsTextureHandleResidentNV|GL_APICALL GLboolean GL_APIENTRY glIsTextureHandleResidentNV (GLuint64 handle);|
+GL_NV_bindless_texture|glIsImageHandleResidentNV|GL_APICALL GLboolean GL_APIENTRY glIsImageHandleResidentNV (GLuint64 handle);|
+GL_NV_blend_equation_advanced|glBlendParameteriNV|GL_APICALL void GL_APIENTRY glBlendParameteriNV (GLenum pname, GLint value);|
+GL_NV_blend_equation_advanced|glBlendBarrierNV|GL_APICALL void GL_APIENTRY glBlendBarrierNV (void);|
+GL_NV_clip_space_w_scaling|glViewportPositionWScaleNV|GL_APICALL void GL_APIENTRY glViewportPositionWScaleNV (GLuint index, GLfloat xcoeff, GLfloat ycoeff);|
+GL_NV_conditional_render|glBeginConditionalRenderNV|GL_APICALL void GL_APIENTRY glBeginConditionalRenderNV (GLuint id, GLenum mode);|
+GL_NV_conditional_render|glEndConditionalRenderNV|GL_APICALL void GL_APIENTRY glEndConditionalRenderNV (void);|
+GL_NV_conservative_raster|glSubpixelPrecisionBiasNV|GL_APICALL void GL_APIENTRY glSubpixelPrecisionBiasNV (GLuint xbits, GLuint ybits);|
+GL_NV_conservative_raster_pre_snap_triangles|glConservativeRasterParameteriNV|GL_APICALL void GL_APIENTRY glConservativeRasterParameteriNV (GLenum pname, GLint param);|
+GL_NV_copy_buffer|glCopyBufferSubDataNV|GL_APICALL void GL_APIENTRY glCopyBufferSubDataNV (GLenum readTarget, GLenum writeTarget, GLintptr readOffset, GLintptr writeOffset, GLsizeiptr size);|
+GL_NV_coverage_sample|glCoverageMaskNV|GL_APICALL void GL_APIENTRY glCoverageMaskNV (GLboolean mask);|
+GL_NV_coverage_sample|glCoverageOperationNV|GL_APICALL void GL_APIENTRY glCoverageOperationNV (GLenum operation);|
+GL_NV_draw_buffers|glDrawBuffersNV|GL_APICALL void GL_APIENTRY glDrawBuffersNV (GLsizei n, const GLenum *bufs);|
+GL_NV_draw_instanced|glDrawArraysInstancedNV|GL_APICALL void GL_APIENTRY glDrawArraysInstancedNV (GLenum mode, GLint first, GLsizei count, GLsizei primcount);|
+GL_NV_draw_instanced|glDrawElementsInstancedNV|GL_APICALL void GL_APIENTRY glDrawElementsInstancedNV (GLenum mode, GLsizei count, GLenum type, const void *indices, GLsizei primcount);|
+GL_NV_draw_vulkan_image|glDrawVkImageNV|GL_APICALL void GL_APIENTRY glDrawVkImageNV (GLuint64 vkImage, GLuint sampler, GLfloat x0, GLfloat y0, GLfloat x1, GLfloat y1, GLfloat z, GLfloat s0, GLfloat t0, GLfloat s1, GLfloat t1);|
+GL_NV_draw_vulkan_image|glGetVkProcAddrNV|GL_APICALL GLVULKANPROCNV GL_APIENTRY glGetVkProcAddrNV (const GLchar *name);|
+GL_NV_draw_vulkan_image|glWaitVkSemaphoreNV|GL_APICALL void GL_APIENTRY glWaitVkSemaphoreNV (GLuint64 vkSemaphore);|
+GL_NV_draw_vulkan_image|glSignalVkSemaphoreNV|GL_APICALL void GL_APIENTRY glSignalVkSemaphoreNV (GLuint64 vkSemaphore);|
+GL_NV_draw_vulkan_image|glSignalVkFenceNV|GL_APICALL void GL_APIENTRY glSignalVkFenceNV (GLuint64 vkFence);|
+GL_NV_fence|glDeleteFencesNV|GL_APICALL void GL_APIENTRY glDeleteFencesNV (GLsizei n, const GLuint *fences);|
+GL_NV_fence|glGenFencesNV|GL_APICALL void GL_APIENTRY glGenFencesNV (GLsizei n, GLuint *fences);|
+GL_NV_fence|glIsFenceNV|GL_APICALL GLboolean GL_APIENTRY glIsFenceNV (GLuint fence);|
+GL_NV_fence|glTestFenceNV|GL_APICALL GLboolean GL_APIENTRY glTestFenceNV (GLuint fence);|
+GL_NV_fence|glGetFenceivNV|GL_APICALL void GL_APIENTRY glGetFenceivNV (GLuint fence, GLenum pname, GLint *params);|
+GL_NV_fence|glFinishFenceNV|GL_APICALL void GL_APIENTRY glFinishFenceNV (GLuint fence);|
+GL_NV_fence|glSetFenceNV|GL_APICALL void GL_APIENTRY glSetFenceNV (GLuint fence, GLenum condition);|
+GL_NV_fragment_coverage_to_color|glFragmentCoverageColorNV|GL_APICALL void GL_APIENTRY glFragmentCoverageColorNV (GLuint color);|
+GL_NV_framebuffer_blit|glBlitFramebufferNV|GL_APICALL void GL_APIENTRY glBlitFramebufferNV (GLint srcX0, GLint srcY0, GLint srcX1, GLint srcY1, GLint dstX0, GLint dstY0, GLint dstX1, GLint dstY1, GLbitfield mask, GLenum filter);|
+GL_NV_framebuffer_mixed_samples|glCoverageModulationTableNV|GL_APICALL void GL_APIENTRY glCoverageModulationTableNV (GLsizei n, const GLfloat *v);|
+GL_NV_framebuffer_mixed_samples|glGetCoverageModulationTableNV|GL_APICALL void GL_APIENTRY glGetCoverageModulationTableNV (GLsizei bufSize, GLfloat *v);|
+GL_NV_framebuffer_mixed_samples|glCoverageModulationNV|GL_APICALL void GL_APIENTRY glCoverageModulationNV (GLenum components);|
+GL_NV_framebuffer_multisample|glRenderbufferStorageMultisampleNV|GL_APICALL void GL_APIENTRY glRenderbufferStorageMultisampleNV (GLenum target, GLsizei samples, GLenum internalformat, GLsizei width, GLsizei height);|
+GL_NV_gpu_shader5|glUniform1i64NV|GL_APICALL void GL_APIENTRY glUniform1i64NV (GLint location, GLint64EXT x);|
+GL_NV_gpu_shader5|glUniform2i64NV|GL_APICALL void GL_APIENTRY glUniform2i64NV (GLint location, GLint64EXT x, GLint64EXT y);|
+GL_NV_gpu_shader5|glUniform3i64NV|GL_APICALL void GL_APIENTRY glUniform3i64NV (GLint location, GLint64EXT x, GLint64EXT y, GLint64EXT z);|
+GL_NV_gpu_shader5|glUniform4i64NV|GL_APICALL void GL_APIENTRY glUniform4i64NV (GLint location, GLint64EXT x, GLint64EXT y, GLint64EXT z, GLint64EXT w);|
+GL_NV_gpu_shader5|glUniform1i64vNV|GL_APICALL void GL_APIENTRY glUniform1i64vNV (GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glUniform2i64vNV|GL_APICALL void GL_APIENTRY glUniform2i64vNV (GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glUniform3i64vNV|GL_APICALL void GL_APIENTRY glUniform3i64vNV (GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glUniform4i64vNV|GL_APICALL void GL_APIENTRY glUniform4i64vNV (GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glUniform1ui64NV|GL_APICALL void GL_APIENTRY glUniform1ui64NV (GLint location, GLuint64EXT x);|
+GL_NV_gpu_shader5|glUniform2ui64NV|GL_APICALL void GL_APIENTRY glUniform2ui64NV (GLint location, GLuint64EXT x, GLuint64EXT y);|
+GL_NV_gpu_shader5|glUniform3ui64NV|GL_APICALL void GL_APIENTRY glUniform3ui64NV (GLint location, GLuint64EXT x, GLuint64EXT y, GLuint64EXT z);|
+GL_NV_gpu_shader5|glUniform4ui64NV|GL_APICALL void GL_APIENTRY glUniform4ui64NV (GLint location, GLuint64EXT x, GLuint64EXT y, GLuint64EXT z, GLuint64EXT w);|
+GL_NV_gpu_shader5|glUniform1ui64vNV|GL_APICALL void GL_APIENTRY glUniform1ui64vNV (GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glUniform2ui64vNV|GL_APICALL void GL_APIENTRY glUniform2ui64vNV (GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glUniform3ui64vNV|GL_APICALL void GL_APIENTRY glUniform3ui64vNV (GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glUniform4ui64vNV|GL_APICALL void GL_APIENTRY glUniform4ui64vNV (GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glGetUniformi64vNV|GL_APICALL void GL_APIENTRY glGetUniformi64vNV (GLuint program, GLint location, GLint64EXT *params);|
+GL_NV_gpu_shader5|glProgramUniform1i64NV|GL_APICALL void GL_APIENTRY glProgramUniform1i64NV (GLuint program, GLint location, GLint64EXT x);|
+GL_NV_gpu_shader5|glProgramUniform2i64NV|GL_APICALL void GL_APIENTRY glProgramUniform2i64NV (GLuint program, GLint location, GLint64EXT x, GLint64EXT y);|
+GL_NV_gpu_shader5|glProgramUniform3i64NV|GL_APICALL void GL_APIENTRY glProgramUniform3i64NV (GLuint program, GLint location, GLint64EXT x, GLint64EXT y, GLint64EXT z);|
+GL_NV_gpu_shader5|glProgramUniform4i64NV|GL_APICALL void GL_APIENTRY glProgramUniform4i64NV (GLuint program, GLint location, GLint64EXT x, GLint64EXT y, GLint64EXT z, GLint64EXT w);|
+GL_NV_gpu_shader5|glProgramUniform1i64vNV|GL_APICALL void GL_APIENTRY glProgramUniform1i64vNV (GLuint program, GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform2i64vNV|GL_APICALL void GL_APIENTRY glProgramUniform2i64vNV (GLuint program, GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform3i64vNV|GL_APICALL void GL_APIENTRY glProgramUniform3i64vNV (GLuint program, GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform4i64vNV|GL_APICALL void GL_APIENTRY glProgramUniform4i64vNV (GLuint program, GLint location, GLsizei count, const GLint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform1ui64NV|GL_APICALL void GL_APIENTRY glProgramUniform1ui64NV (GLuint program, GLint location, GLuint64EXT x);|
+GL_NV_gpu_shader5|glProgramUniform2ui64NV|GL_APICALL void GL_APIENTRY glProgramUniform2ui64NV (GLuint program, GLint location, GLuint64EXT x, GLuint64EXT y);|
+GL_NV_gpu_shader5|glProgramUniform3ui64NV|GL_APICALL void GL_APIENTRY glProgramUniform3ui64NV (GLuint program, GLint location, GLuint64EXT x, GLuint64EXT y, GLuint64EXT z);|
+GL_NV_gpu_shader5|glProgramUniform4ui64NV|GL_APICALL void GL_APIENTRY glProgramUniform4ui64NV (GLuint program, GLint location, GLuint64EXT x, GLuint64EXT y, GLuint64EXT z, GLuint64EXT w);|
+GL_NV_gpu_shader5|glProgramUniform1ui64vNV|GL_APICALL void GL_APIENTRY glProgramUniform1ui64vNV (GLuint program, GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform2ui64vNV|GL_APICALL void GL_APIENTRY glProgramUniform2ui64vNV (GLuint program, GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform3ui64vNV|GL_APICALL void GL_APIENTRY glProgramUniform3ui64vNV (GLuint program, GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_gpu_shader5|glProgramUniform4ui64vNV|GL_APICALL void GL_APIENTRY glProgramUniform4ui64vNV (GLuint program, GLint location, GLsizei count, const GLuint64EXT *value);|
+GL_NV_instanced_arrays|glVertexAttribDivisorNV|GL_APICALL void GL_APIENTRY glVertexAttribDivisorNV (GLuint index, GLuint divisor);|
+GL_NV_internalformat_sample_query|glGetInternalformatSampleivNV|GL_APICALL void GL_APIENTRY glGetInternalformatSampleivNV (GLenum target, GLenum internalformat, GLsizei samples, GLenum pname, GLsizei count, GLint *params);|
+GL_NV_memory_attachment|glGetMemoryObjectDetachedResourcesuivNV|GL_APICALL void GL_APIENTRY glGetMemoryObjectDetachedResourcesuivNV (GLuint memory, GLenum pname, GLint first, GLsizei count, GLuint *params);|
+GL_NV_memory_attachment|glResetMemoryObjectParameterNV|GL_APICALL void GL_APIENTRY glResetMemoryObjectParameterNV (GLuint memory, GLenum pname);|
+GL_NV_memory_attachment|glTexAttachMemoryNV|GL_APICALL void GL_APIENTRY glTexAttachMemoryNV (GLenum target, GLuint memory, GLuint64 offset);|
+GL_NV_memory_attachment|glBufferAttachMemoryNV|GL_APICALL void GL_APIENTRY glBufferAttachMemoryNV (GLenum target, GLuint memory, GLuint64 offset);|
+GL_NV_memory_attachment|glTextureAttachMemoryNV|GL_APICALL void GL_APIENTRY glTextureAttachMemoryNV (GLuint texture, GLuint memory, GLuint64 offset);|
+GL_NV_memory_attachment|glNamedBufferAttachMemoryNV|GL_APICALL void GL_APIENTRY glNamedBufferAttachMemoryNV (GLuint buffer, GLuint memory, GLuint64 offset);|
+GL_NV_memory_object_sparse|glBufferPageCommitmentMemNV|GL_APICALL void GL_APIENTRY glBufferPageCommitmentMemNV (GLenum target, GLintptr offset, GLsizeiptr size, GLuint memory, GLuint64 memOffset, GLboolean commit);|
+GL_NV_memory_object_sparse|glTexPageCommitmentMemNV|GL_APICALL void GL_APIENTRY glTexPageCommitmentMemNV (GLenum target, GLint layer, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLuint memory, GLuint64 offset, GLboolean commit);|
+GL_NV_memory_object_sparse|glNamedBufferPageCommitmentMemNV|GL_APICALL void GL_APIENTRY glNamedBufferPageCommitmentMemNV (GLuint buffer, GLintptr offset, GLsizeiptr size, GLuint memory, GLuint64 memOffset, GLboolean commit);|
+GL_NV_memory_object_sparse|glTexturePageCommitmentMemNV|GL_APICALL void GL_APIENTRY glTexturePageCommitmentMemNV (GLuint texture, GLint layer, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLuint memory, GLuint64 offset, GLboolean commit);|
+GL_NV_mesh_shader|glDrawMeshTasksNV|GL_APICALL void GL_APIENTRY glDrawMeshTasksNV (GLuint first, GLuint count);|
+GL_NV_mesh_shader|glDrawMeshTasksIndirectNV|GL_APICALL void GL_APIENTRY glDrawMeshTasksIndirectNV (GLintptr indirect);|
+GL_NV_mesh_shader|glMultiDrawMeshTasksIndirectNV|GL_APICALL void GL_APIENTRY glMultiDrawMeshTasksIndirectNV (GLintptr indirect, GLsizei drawcount, GLsizei stride);|
+GL_NV_mesh_shader|glMultiDrawMeshTasksIndirectCountNV|GL_APICALL void GL_APIENTRY glMultiDrawMeshTasksIndirectCountNV (GLintptr indirect, GLintptr drawcount, GLsizei maxdrawcount, GLsizei stride);|
+GL_NV_non_square_matrices|glUniformMatrix2x3fvNV|GL_APICALL void GL_APIENTRY glUniformMatrix2x3fvNV (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_NV_non_square_matrices|glUniformMatrix3x2fvNV|GL_APICALL void GL_APIENTRY glUniformMatrix3x2fvNV (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_NV_non_square_matrices|glUniformMatrix2x4fvNV|GL_APICALL void GL_APIENTRY glUniformMatrix2x4fvNV (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_NV_non_square_matrices|glUniformMatrix4x2fvNV|GL_APICALL void GL_APIENTRY glUniformMatrix4x2fvNV (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_NV_non_square_matrices|glUniformMatrix3x4fvNV|GL_APICALL void GL_APIENTRY glUniformMatrix3x4fvNV (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_NV_non_square_matrices|glUniformMatrix4x3fvNV|GL_APICALL void GL_APIENTRY glUniformMatrix4x3fvNV (GLint location, GLsizei count, GLboolean transpose, const GLfloat *value);|
+GL_NV_path_rendering|glGenPathsNV|GL_APICALL GLuint GL_APIENTRY glGenPathsNV (GLsizei range);|
+GL_NV_path_rendering|glDeletePathsNV|GL_APICALL void GL_APIENTRY glDeletePathsNV (GLuint path, GLsizei range);|
+GL_NV_path_rendering|glIsPathNV|GL_APICALL GLboolean GL_APIENTRY glIsPathNV (GLuint path);|
+GL_NV_path_rendering|glPathCommandsNV|GL_APICALL void GL_APIENTRY glPathCommandsNV (GLuint path, GLsizei numCommands, const GLubyte *commands, GLsizei numCoords, GLenum coordType, const void *coords);|
+GL_NV_path_rendering|glPathCoordsNV|GL_APICALL void GL_APIENTRY glPathCoordsNV (GLuint path, GLsizei numCoords, GLenum coordType, const void *coords);|
+GL_NV_path_rendering|glPathSubCommandsNV|GL_APICALL void GL_APIENTRY glPathSubCommandsNV (GLuint path, GLsizei commandStart, GLsizei commandsToDelete, GLsizei numCommands, const GLubyte *commands, GLsizei numCoords, GLenum coordType, const void *coords);|
+GL_NV_path_rendering|glPathSubCoordsNV|GL_APICALL void GL_APIENTRY glPathSubCoordsNV (GLuint path, GLsizei coordStart, GLsizei numCoords, GLenum coordType, const void *coords);|
+GL_NV_path_rendering|glPathStringNV|GL_APICALL void GL_APIENTRY glPathStringNV (GLuint path, GLenum format, GLsizei length, const void *pathString);|
+GL_NV_path_rendering|glPathGlyphsNV|GL_APICALL void GL_APIENTRY glPathGlyphsNV (GLuint firstPathName, GLenum fontTarget, const void *fontName, GLbitfield fontStyle, GLsizei numGlyphs, GLenum type, const void *charcodes, GLenum handleMissingGlyphs, GLuint pathParameterTemplate, GLfloat emScale);|
+GL_NV_path_rendering|glPathGlyphRangeNV|GL_APICALL void GL_APIENTRY glPathGlyphRangeNV (GLuint firstPathName, GLenum fontTarget, const void *fontName, GLbitfield fontStyle, GLuint firstGlyph, GLsizei numGlyphs, GLenum handleMissingGlyphs, GLuint pathParameterTemplate, GLfloat emScale);|
+GL_NV_path_rendering|glWeightPathsNV|GL_APICALL void GL_APIENTRY glWeightPathsNV (GLuint resultPath, GLsizei numPaths, const GLuint *paths, const GLfloat *weights);|
+GL_NV_path_rendering|glCopyPathNV|GL_APICALL void GL_APIENTRY glCopyPathNV (GLuint resultPath, GLuint srcPath);|
+GL_NV_path_rendering|glInterpolatePathsNV|GL_APICALL void GL_APIENTRY glInterpolatePathsNV (GLuint resultPath, GLuint pathA, GLuint pathB, GLfloat weight);|
+GL_NV_path_rendering|glTransformPathNV|GL_APICALL void GL_APIENTRY glTransformPathNV (GLuint resultPath, GLuint srcPath, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glPathParameterivNV|GL_APICALL void GL_APIENTRY glPathParameterivNV (GLuint path, GLenum pname, const GLint *value);|
+GL_NV_path_rendering|glPathParameteriNV|GL_APICALL void GL_APIENTRY glPathParameteriNV (GLuint path, GLenum pname, GLint value);|
+GL_NV_path_rendering|glPathParameterfvNV|GL_APICALL void GL_APIENTRY glPathParameterfvNV (GLuint path, GLenum pname, const GLfloat *value);|
+GL_NV_path_rendering|glPathParameterfNV|GL_APICALL void GL_APIENTRY glPathParameterfNV (GLuint path, GLenum pname, GLfloat value);|
+GL_NV_path_rendering|glPathDashArrayNV|GL_APICALL void GL_APIENTRY glPathDashArrayNV (GLuint path, GLsizei dashCount, const GLfloat *dashArray);|
+GL_NV_path_rendering|glPathStencilFuncNV|GL_APICALL void GL_APIENTRY glPathStencilFuncNV (GLenum func, GLint ref, GLuint mask);|
+GL_NV_path_rendering|glPathStencilDepthOffsetNV|GL_APICALL void GL_APIENTRY glPathStencilDepthOffsetNV (GLfloat factor, GLfloat units);|
+GL_NV_path_rendering|glStencilFillPathNV|GL_APICALL void GL_APIENTRY glStencilFillPathNV (GLuint path, GLenum fillMode, GLuint mask);|
+GL_NV_path_rendering|glStencilStrokePathNV|GL_APICALL void GL_APIENTRY glStencilStrokePathNV (GLuint path, GLint reference, GLuint mask);|
+GL_NV_path_rendering|glStencilFillPathInstancedNV|GL_APICALL void GL_APIENTRY glStencilFillPathInstancedNV (GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLenum fillMode, GLuint mask, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glStencilStrokePathInstancedNV|GL_APICALL void GL_APIENTRY glStencilStrokePathInstancedNV (GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLint reference, GLuint mask, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glPathCoverDepthFuncNV|GL_APICALL void GL_APIENTRY glPathCoverDepthFuncNV (GLenum func);|
+GL_NV_path_rendering|glCoverFillPathNV|GL_APICALL void GL_APIENTRY glCoverFillPathNV (GLuint path, GLenum coverMode);|
+GL_NV_path_rendering|glCoverStrokePathNV|GL_APICALL void GL_APIENTRY glCoverStrokePathNV (GLuint path, GLenum coverMode);|
+GL_NV_path_rendering|glCoverFillPathInstancedNV|GL_APICALL void GL_APIENTRY glCoverFillPathInstancedNV (GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLenum coverMode, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glCoverStrokePathInstancedNV|GL_APICALL void GL_APIENTRY glCoverStrokePathInstancedNV (GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLenum coverMode, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glGetPathParameterivNV|GL_APICALL void GL_APIENTRY glGetPathParameterivNV (GLuint path, GLenum pname, GLint *value);|
+GL_NV_path_rendering|glGetPathParameterfvNV|GL_APICALL void GL_APIENTRY glGetPathParameterfvNV (GLuint path, GLenum pname, GLfloat *value);|
+GL_NV_path_rendering|glGetPathCommandsNV|GL_APICALL void GL_APIENTRY glGetPathCommandsNV (GLuint path, GLubyte *commands);|
+GL_NV_path_rendering|glGetPathCoordsNV|GL_APICALL void GL_APIENTRY glGetPathCoordsNV (GLuint path, GLfloat *coords);|
+GL_NV_path_rendering|glGetPathDashArrayNV|GL_APICALL void GL_APIENTRY glGetPathDashArrayNV (GLuint path, GLfloat *dashArray);|
+GL_NV_path_rendering|glGetPathMetricsNV|GL_APICALL void GL_APIENTRY glGetPathMetricsNV (GLbitfield metricQueryMask, GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLsizei stride, GLfloat *metrics);|
+GL_NV_path_rendering|glGetPathMetricRangeNV|GL_APICALL void GL_APIENTRY glGetPathMetricRangeNV (GLbitfield metricQueryMask, GLuint firstPathName, GLsizei numPaths, GLsizei stride, GLfloat *metrics);|
+GL_NV_path_rendering|glGetPathSpacingNV|GL_APICALL void GL_APIENTRY glGetPathSpacingNV (GLenum pathListMode, GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLfloat advanceScale, GLfloat kerningScale, GLenum transformType, GLfloat *returnedSpacing);|
+GL_NV_path_rendering|glIsPointInFillPathNV|GL_APICALL GLboolean GL_APIENTRY glIsPointInFillPathNV (GLuint path, GLuint mask, GLfloat x, GLfloat y);|
+GL_NV_path_rendering|glIsPointInStrokePathNV|GL_APICALL GLboolean GL_APIENTRY glIsPointInStrokePathNV (GLuint path, GLfloat x, GLfloat y);|
+GL_NV_path_rendering|glGetPathLengthNV|GL_APICALL GLfloat GL_APIENTRY glGetPathLengthNV (GLuint path, GLsizei startSegment, GLsizei numSegments);|
+GL_NV_path_rendering|glPointAlongPathNV|GL_APICALL GLboolean GL_APIENTRY glPointAlongPathNV (GLuint path, GLsizei startSegment, GLsizei numSegments, GLfloat distance, GLfloat *x, GLfloat *y, GLfloat *tangentX, GLfloat *tangentY);|
+GL_NV_path_rendering|glMatrixLoad3x2fNV|GL_APICALL void GL_APIENTRY glMatrixLoad3x2fNV (GLenum matrixMode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixLoad3x3fNV|GL_APICALL void GL_APIENTRY glMatrixLoad3x3fNV (GLenum matrixMode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixLoadTranspose3x3fNV|GL_APICALL void GL_APIENTRY glMatrixLoadTranspose3x3fNV (GLenum matrixMode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixMult3x2fNV|GL_APICALL void GL_APIENTRY glMatrixMult3x2fNV (GLenum matrixMode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixMult3x3fNV|GL_APICALL void GL_APIENTRY glMatrixMult3x3fNV (GLenum matrixMode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixMultTranspose3x3fNV|GL_APICALL void GL_APIENTRY glMatrixMultTranspose3x3fNV (GLenum matrixMode, const GLfloat *m);|
+GL_NV_path_rendering|glStencilThenCoverFillPathNV|GL_APICALL void GL_APIENTRY glStencilThenCoverFillPathNV (GLuint path, GLenum fillMode, GLuint mask, GLenum coverMode);|
+GL_NV_path_rendering|glStencilThenCoverStrokePathNV|GL_APICALL void GL_APIENTRY glStencilThenCoverStrokePathNV (GLuint path, GLint reference, GLuint mask, GLenum coverMode);|
+GL_NV_path_rendering|glStencilThenCoverFillPathInstancedNV|GL_APICALL void GL_APIENTRY glStencilThenCoverFillPathInstancedNV (GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLenum fillMode, GLuint mask, GLenum coverMode, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glStencilThenCoverStrokePathInstancedNV|GL_APICALL void GL_APIENTRY glStencilThenCoverStrokePathInstancedNV (GLsizei numPaths, GLenum pathNameType, const void *paths, GLuint pathBase, GLint reference, GLuint mask, GLenum coverMode, GLenum transformType, const GLfloat *transformValues);|
+GL_NV_path_rendering|glPathGlyphIndexRangeNV|GL_APICALL GLenum GL_APIENTRY glPathGlyphIndexRangeNV (GLenum fontTarget, const void *fontName, GLbitfield fontStyle, GLuint pathParameterTemplate, GLfloat emScale, GLuint *baseAndCount);|
+GL_NV_path_rendering|glPathGlyphIndexArrayNV|GL_APICALL GLenum GL_APIENTRY glPathGlyphIndexArrayNV (GLuint firstPathName, GLenum fontTarget, const void *fontName, GLbitfield fontStyle, GLuint firstGlyphIndex, GLsizei numGlyphs, GLuint pathParameterTemplate, GLfloat emScale);|
+GL_NV_path_rendering|glPathMemoryGlyphIndexArrayNV|GL_APICALL GLenum GL_APIENTRY glPathMemoryGlyphIndexArrayNV (GLuint firstPathName, GLenum fontTarget, GLsizeiptr fontSize, const void *fontData, GLsizei faceIndex, GLuint firstGlyphIndex, GLsizei numGlyphs, GLuint pathParameterTemplate, GLfloat emScale);|
+GL_NV_path_rendering|glProgramPathFragmentInputGenNV|GL_APICALL void GL_APIENTRY glProgramPathFragmentInputGenNV (GLuint program, GLint location, GLenum genMode, GLint components, const GLfloat *coeffs);|
+GL_NV_path_rendering|glGetProgramResourcefvNV|GL_APICALL void GL_APIENTRY glGetProgramResourcefvNV (GLuint program, GLenum programInterface, GLuint index, GLsizei propCount, const GLenum *props, GLsizei count, GLsizei *length, GLfloat *params);|
+GL_NV_path_rendering|glMatrixFrustumEXT|GL_APICALL void GL_APIENTRY glMatrixFrustumEXT (GLenum mode, GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble zNear, GLdouble zFar);|
+GL_NV_path_rendering|glMatrixLoadIdentityEXT|GL_APICALL void GL_APIENTRY glMatrixLoadIdentityEXT (GLenum mode);|
+GL_NV_path_rendering|glMatrixLoadTransposefEXT|GL_APICALL void GL_APIENTRY glMatrixLoadTransposefEXT (GLenum mode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixLoadTransposedEXT|GL_APICALL void GL_APIENTRY glMatrixLoadTransposedEXT (GLenum mode, const GLdouble *m);|
+GL_NV_path_rendering|glMatrixLoadfEXT|GL_APICALL void GL_APIENTRY glMatrixLoadfEXT (GLenum mode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixLoaddEXT|GL_APICALL void GL_APIENTRY glMatrixLoaddEXT (GLenum mode, const GLdouble *m);|
+GL_NV_path_rendering|glMatrixMultTransposefEXT|GL_APICALL void GL_APIENTRY glMatrixMultTransposefEXT (GLenum mode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixMultTransposedEXT|GL_APICALL void GL_APIENTRY glMatrixMultTransposedEXT (GLenum mode, const GLdouble *m);|
+GL_NV_path_rendering|glMatrixMultfEXT|GL_APICALL void GL_APIENTRY glMatrixMultfEXT (GLenum mode, const GLfloat *m);|
+GL_NV_path_rendering|glMatrixMultdEXT|GL_APICALL void GL_APIENTRY glMatrixMultdEXT (GLenum mode, const GLdouble *m);|
+GL_NV_path_rendering|glMatrixOrthoEXT|GL_APICALL void GL_APIENTRY glMatrixOrthoEXT (GLenum mode, GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble zNear, GLdouble zFar);|
+GL_NV_path_rendering|glMatrixPopEXT|GL_APICALL void GL_APIENTRY glMatrixPopEXT (GLenum mode);|
+GL_NV_path_rendering|glMatrixPushEXT|GL_APICALL void GL_APIENTRY glMatrixPushEXT (GLenum mode);|
+GL_NV_path_rendering|glMatrixRotatefEXT|GL_APICALL void GL_APIENTRY glMatrixRotatefEXT (GLenum mode, GLfloat angle, GLfloat x, GLfloat y, GLfloat z);|
+GL_NV_path_rendering|glMatrixRotatedEXT|GL_APICALL void GL_APIENTRY glMatrixRotatedEXT (GLenum mode, GLdouble angle, GLdouble x, GLdouble y, GLdouble z);|
+GL_NV_path_rendering|glMatrixScalefEXT|GL_APICALL void GL_APIENTRY glMatrixScalefEXT (GLenum mode, GLfloat x, GLfloat y, GLfloat z);|
+GL_NV_path_rendering|glMatrixScaledEXT|GL_APICALL void GL_APIENTRY glMatrixScaledEXT (GLenum mode, GLdouble x, GLdouble y, GLdouble z);|
+GL_NV_path_rendering|glMatrixTranslatefEXT|GL_APICALL void GL_APIENTRY glMatrixTranslatefEXT (GLenum mode, GLfloat x, GLfloat y, GLfloat z);|
+GL_NV_path_rendering|glMatrixTranslatedEXT|GL_APICALL void GL_APIENTRY glMatrixTranslatedEXT (GLenum mode, GLdouble x, GLdouble y, GLdouble z);|
+GL_NV_polygon_mode|glPolygonModeNV|GL_APICALL void GL_APIENTRY glPolygonModeNV (GLenum face, GLenum mode);|
+GL_NV_read_buffer|glReadBufferNV|GL_APICALL void GL_APIENTRY glReadBufferNV (GLenum mode);|
+GL_NV_sample_locations|glFramebufferSampleLocationsfvNV|GL_APICALL void GL_APIENTRY glFramebufferSampleLocationsfvNV (GLenum target, GLuint start, GLsizei count, const GLfloat *v);|
+GL_NV_sample_locations|glNamedFramebufferSampleLocationsfvNV|GL_APICALL void GL_APIENTRY glNamedFramebufferSampleLocationsfvNV (GLuint framebuffer, GLuint start, GLsizei count, const GLfloat *v);|
+GL_NV_sample_locations|glResolveDepthValuesNV|GL_APICALL void GL_APIENTRY glResolveDepthValuesNV (void);|
+GL_NV_scissor_exclusive|glScissorExclusiveNV|GL_APICALL void GL_APIENTRY glScissorExclusiveNV (GLint x, GLint y, GLsizei width, GLsizei height);|
+GL_NV_scissor_exclusive|glScissorExclusiveArrayvNV|GL_APICALL void GL_APIENTRY glScissorExclusiveArrayvNV (GLuint first, GLsizei count, const GLint *v);|
+GL_NV_shading_rate_image|glBindShadingRateImageNV|GL_APICALL void GL_APIENTRY glBindShadingRateImageNV (GLuint texture);|
+GL_NV_shading_rate_image|glGetShadingRateImagePaletteNV|GL_APICALL void GL_APIENTRY glGetShadingRateImagePaletteNV (GLuint viewport, GLuint entry, GLenum *rate);|
+GL_NV_shading_rate_image|glGetShadingRateSampleLocationivNV|GL_APICALL void GL_APIENTRY glGetShadingRateSampleLocationivNV (GLenum rate, GLuint samples, GLuint index, GLint *location);|
+GL_NV_shading_rate_image|glShadingRateImageBarrierNV|GL_APICALL void GL_APIENTRY glShadingRateImageBarrierNV (GLboolean synchronize);|
+GL_NV_shading_rate_image|glShadingRateImagePaletteNV|GL_APICALL void GL_APIENTRY glShadingRateImagePaletteNV (GLuint viewport, GLuint first, GLsizei count, const GLenum *rates);|
+GL_NV_shading_rate_image|glShadingRateSampleOrderNV|GL_APICALL void GL_APIENTRY glShadingRateSampleOrderNV (GLenum order);|
+GL_NV_shading_rate_image|glShadingRateSampleOrderCustomNV|GL_APICALL void GL_APIENTRY glShadingRateSampleOrderCustomNV (GLenum rate, GLuint samples, const GLint *locations);|
+GL_NV_timeline_semaphore|glCreateSemaphoresNV|GL_APICALL void GL_APIENTRY glCreateSemaphoresNV (GLsizei n, GLuint *semaphores);|
+GL_NV_timeline_semaphore|glSemaphoreParameterivNV|GL_APICALL void GL_APIENTRY glSemaphoreParameterivNV (GLuint semaphore, GLenum pname, const GLint *params);|
+GL_NV_timeline_semaphore|glGetSemaphoreParameterivNV|GL_APICALL void GL_APIENTRY glGetSemaphoreParameterivNV (GLuint semaphore, GLenum pname, GLint *params);|
+GL_NV_viewport_array|glViewportArrayvNV|GL_APICALL void GL_APIENTRY glViewportArrayvNV (GLuint first, GLsizei count, const GLfloat *v);|
+GL_NV_viewport_array|glViewportIndexedfNV|GL_APICALL void GL_APIENTRY glViewportIndexedfNV (GLuint index, GLfloat x, GLfloat y, GLfloat w, GLfloat h);|
+GL_NV_viewport_array|glViewportIndexedfvNV|GL_APICALL void GL_APIENTRY glViewportIndexedfvNV (GLuint index, const GLfloat *v);|
+GL_NV_viewport_array|glScissorArrayvNV|GL_APICALL void GL_APIENTRY glScissorArrayvNV (GLuint first, GLsizei count, const GLint *v);|
+GL_NV_viewport_array|glScissorIndexedNV|GL_APICALL void GL_APIENTRY glScissorIndexedNV (GLuint index, GLint left, GLint bottom, GLsizei width, GLsizei height);|
+GL_NV_viewport_array|glScissorIndexedvNV|GL_APICALL void GL_APIENTRY glScissorIndexedvNV (GLuint index, const GLint *v);|
+GL_NV_viewport_array|glDepthRangeArrayfvNV|GL_APICALL void GL_APIENTRY glDepthRangeArrayfvNV (GLuint first, GLsizei count, const GLfloat *v);|
+GL_NV_viewport_array|glDepthRangeIndexedfNV|GL_APICALL void GL_APIENTRY glDepthRangeIndexedfNV (GLuint index, GLfloat n, GLfloat f);|
+GL_NV_viewport_array|glGetFloati_vNV|GL_APICALL void GL_APIENTRY glGetFloati_vNV (GLenum target, GLuint index, GLfloat *data);|
+GL_NV_viewport_array|glEnableiNV|GL_APICALL void GL_APIENTRY glEnableiNV (GLenum target, GLuint index);|
+GL_NV_viewport_array|glDisableiNV|GL_APICALL void GL_APIENTRY glDisableiNV (GLenum target, GLuint index);|
+GL_NV_viewport_array|glIsEnablediNV|GL_APICALL GLboolean GL_APIENTRY glIsEnablediNV (GLenum target, GLuint index);|
+GL_NV_viewport_swizzle|glViewportSwizzleNV|GL_APICALL void GL_APIENTRY glViewportSwizzleNV (GLuint index, GLenum swizzlex, GLenum swizzley, GLenum swizzlez, GLenum swizzlew);|
+GL_OVR_multiview|glFramebufferTextureMultiviewOVR|GL_APICALL void GL_APIENTRY glFramebufferTextureMultiviewOVR (GLenum target, GLenum attachment, GLuint texture, GLint level, GLint baseViewIndex, GLsizei numViews);|
+GL_OVR_multiview_multisampled_render_to_texture|glFramebufferTextureMultisampleMultiviewOVR|GL_APICALL void GL_APIENTRY glFramebufferTextureMultisampleMultiviewOVR (GLenum target, GLenum attachment, GLuint texture, GLint level, GLsizei samples, GLint baseViewIndex, GLsizei numViews);|
+GL_QCOM_alpha_test|glAlphaFuncQCOM|GL_APICALL void GL_APIENTRY glAlphaFuncQCOM (GLenum func, GLclampf ref);|
+GL_QCOM_driver_control|glGetDriverControlsQCOM|GL_APICALL void GL_APIENTRY glGetDriverControlsQCOM (GLint *num, GLsizei size, GLuint *driverControls);|
+GL_QCOM_driver_control|glGetDriverControlStringQCOM|GL_APICALL void GL_APIENTRY glGetDriverControlStringQCOM (GLuint driverControl, GLsizei bufSize, GLsizei *length, GLchar *driverControlString);|
+GL_QCOM_driver_control|glEnableDriverControlQCOM|GL_APICALL void GL_APIENTRY glEnableDriverControlQCOM (GLuint driverControl);|
+GL_QCOM_driver_control|glDisableDriverControlQCOM|GL_APICALL void GL_APIENTRY glDisableDriverControlQCOM (GLuint driverControl);|
+GL_QCOM_extended_get|glExtGetTexturesQCOM|GL_APICALL void GL_APIENTRY glExtGetTexturesQCOM (GLuint *textures, GLint maxTextures, GLint *numTextures);|
+GL_QCOM_extended_get|glExtGetBuffersQCOM|GL_APICALL void GL_APIENTRY glExtGetBuffersQCOM (GLuint *buffers, GLint maxBuffers, GLint *numBuffers);|
+GL_QCOM_extended_get|glExtGetRenderbuffersQCOM|GL_APICALL void GL_APIENTRY glExtGetRenderbuffersQCOM (GLuint *renderbuffers, GLint maxRenderbuffers, GLint *numRenderbuffers);|
+GL_QCOM_extended_get|glExtGetFramebuffersQCOM|GL_APICALL void GL_APIENTRY glExtGetFramebuffersQCOM (GLuint *framebuffers, GLint maxFramebuffers, GLint *numFramebuffers);|
+GL_QCOM_extended_get|glExtGetTexLevelParameterivQCOM|GL_APICALL void GL_APIENTRY glExtGetTexLevelParameterivQCOM (GLuint texture, GLenum face, GLint level, GLenum pname, GLint *params);|
+GL_QCOM_extended_get|glExtTexObjectStateOverrideiQCOM|GL_APICALL void GL_APIENTRY glExtTexObjectStateOverrideiQCOM (GLenum target, GLenum pname, GLint param);|
+GL_QCOM_extended_get|glExtGetTexSubImageQCOM|GL_APICALL void GL_APIENTRY glExtGetTexSubImageQCOM (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset, GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLenum type, void *texels);|
+GL_QCOM_extended_get|glExtGetBufferPointervQCOM|GL_APICALL void GL_APIENTRY glExtGetBufferPointervQCOM (GLenum target, void **params);|
+GL_QCOM_extended_get2|glExtGetShadersQCOM|GL_APICALL void GL_APIENTRY glExtGetShadersQCOM (GLuint *shaders, GLint maxShaders, GLint *numShaders);|
+GL_QCOM_extended_get2|glExtGetProgramsQCOM|GL_APICALL void GL_APIENTRY glExtGetProgramsQCOM (GLuint *programs, GLint maxPrograms, GLint *numPrograms);|
+GL_QCOM_extended_get2|glExtIsProgramBinaryQCOM|GL_APICALL GLboolean GL_APIENTRY glExtIsProgramBinaryQCOM (GLuint program);|
+GL_QCOM_extended_get2|glExtGetProgramBinarySourceQCOM|GL_APICALL void GL_APIENTRY glExtGetProgramBinarySourceQCOM (GLuint program, GLenum shadertype, GLchar *source, GLint *length);|
+GL_QCOM_frame_extrapolation|glExtrapolateTex2DQCOM|GL_APICALL void GL_APIENTRY glExtrapolateTex2DQCOM (GLuint src1, GLuint src2, GLuint output, GLfloat scaleFactor);|
+GL_QCOM_framebuffer_foveated|glFramebufferFoveationConfigQCOM|GL_APICALL void GL_APIENTRY glFramebufferFoveationConfigQCOM (GLuint framebuffer, GLuint numLayers, GLuint focalPointsPerLayer, GLuint requestedFeatures, GLuint *providedFeatures);|
+GL_QCOM_framebuffer_foveated|glFramebufferFoveationParametersQCOM|GL_APICALL void GL_APIENTRY glFramebufferFoveationParametersQCOM (GLuint framebuffer, GLuint layer, GLuint focalPoint, GLfloat focalX, GLfloat focalY, GLfloat gainX, GLfloat gainY, GLfloat foveaArea);|
+GL_QCOM_motion_estimation|glTexEstimateMotionQCOM|GL_APICALL void GL_APIENTRY glTexEstimateMotionQCOM (GLuint ref, GLuint target, GLuint output);|
+GL_QCOM_motion_estimation|glTexEstimateMotionRegionsQCOM|GL_APICALL void GL_APIENTRY glTexEstimateMotionRegionsQCOM (GLuint ref, GLuint target, GLuint output, GLuint mask);|
+GL_QCOM_shader_framebuffer_fetch_noncoherent|glFramebufferFetchBarrierQCOM|GL_APICALL void GL_APIENTRY glFramebufferFetchBarrierQCOM (void);|
+GL_QCOM_shading_rate|glShadingRateQCOM|GL_APICALL void GL_APIENTRY glShadingRateQCOM (GLenum rate);|
+GL_QCOM_texture_foveated|glTextureFoveationParametersQCOM|GL_APICALL void GL_APIENTRY glTextureFoveationParametersQCOM (GLuint texture, GLuint layer, GLuint focalPoint, GLfloat focalX, GLfloat focalY, GLfloat gainX, GLfloat gainY, GLfloat foveaArea);|
+GL_QCOM_tiled_rendering|glStartTilingQCOM|GL_APICALL void GL_APIENTRY glStartTilingQCOM (GLuint x, GLuint y, GLuint width, GLuint height, GLbitfield preserveMask);|
+GL_QCOM_tiled_rendering|glEndTilingQCOM|GL_APICALL void GL_APIENTRY glEndTilingQCOM (GLbitfield preserveMask);|
