@@ -32,9 +32,6 @@ int main()
 
 
 
-
-
-
 #ifndef PLATFORM_UWP
 #if defined(_MSC_VER) && !defined(INTERNAL_HAVE_WINAPIFAMILY)
 #ifdef __has_include
@@ -51,6 +48,11 @@ int main()
 #if !WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP) && WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP)
 #define PHI_WIN 1 
 #define PLATFORM_UWP 1
+#endif
+#endif
+
+#ifndef CPVULKAN_PLATFORM_UWP
+#define CPVULKAN_PLATFORM_UWP 0
 #endif
 #endif
 
