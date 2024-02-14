@@ -18,6 +18,7 @@ Meta loader for Vulkan API
 | 文件                      | 说明                                                                                 |
 |---------------------------|------------------------------------------------------------------------------------|
 | vulkan                   | vulkan所有头文件，使用[Vulkan-Docs](https://github.com/KhronosGroup/Vulkan-Docs)的工具生成和自定义                                |
+| VkLoaderHelper.hpp       | 一大堆宏定义|         
 | PhiLoader.hpp             | 一些类型，结构的定义                                                                |
 | VkLoader.cpp              | VkLoader 原文件                                                                    |
 | VkLoader.hpp              | VkLoader 头文件                                     |
