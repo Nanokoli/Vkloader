@@ -51,8 +51,8 @@ int main()
 #endif
 #endif
 
-#ifndef CPVULKAN_PLATFORM_UWP
-#define CPVULKAN_PLATFORM_UWP 0
+#ifndef PLATFORM_UWP
+#define PLATFORM_UWP 0
 #endif
 #endif
 
